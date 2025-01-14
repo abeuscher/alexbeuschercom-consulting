@@ -1,0 +1,17 @@
+@use "variables" as *;
+header {
+  h1 {
+    border-bottom: none;
+  }
+  text-align: center;
+  nav {
+    a {
+      font-size: 1.4em;
+      padding: 6px 10px;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

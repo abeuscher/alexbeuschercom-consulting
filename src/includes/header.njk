@@ -1,0 +1,12 @@
+<header>
+    <div class="content-wrapper">
+        <h1>{{sitedata.header.name}}</h1>
+        <h2>{{sitedata.header.site_title}}</h2>
+        <nav>
+            {% for item in sitedata.header.nav %}
+                <a href="{{item.url}}">{{item.text}}</a>
+            {% endfor %}
+
+        </nav>
+    </div>
+</header>

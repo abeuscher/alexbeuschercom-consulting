@@ -1,0 +1,4 @@
+Sitemap: https://hieofone.com/sitemap.xml
+
+User-agent: *
+Allow: /

@@ -1,0 +1,36 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {# Home page #}
+    <url>
+        <loc>{{ site.url }}/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    {# Navigation pages #}
+    {%- for page in collections.headernav %}
+        <url>
+            <loc>{{ site.url }}{{ page.data.permalink }}</loc>
+            {%- if page.data.datePublished %}
+                <lastmod>{{ page.data.datePublished }}</lastmod>
+            {%- endif %}
+            <changefreq>monthly</changefreq>
+            <priority>0.8</priority>
+        </url>
+    {%- endfor %}
+    {%- for page in collections.footernav %}
+        {% if page.data.permalink != "/sitemap.xml" %}
+            <url>
+                <loc>{{ site.url }}{{ page.data.permalink | replace('/index.html', '/') }}</loc>
+                {%- if page.data.datePublished %}
+                    <lastmod>{{ page.data.datePublished }}</lastmod>
+                {%- endif %}
+                <changefreq>monthly</changefreq>
+                <priority>0.8</priority>
+            </url>
+        {% endif %}
+    {%- endfor %}
+</urlset>
