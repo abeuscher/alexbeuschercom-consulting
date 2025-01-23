@@ -6,11 +6,20 @@ description: "Alex Beuscher is a digital consultant."
 image: "/images/logo.png"
 datePublished: "2024-01-01"
 ---
-
+{% from "../macros/serviceitem.njk" import renderServiceItem %}
 <article>
     <div class="content-wrapper padding-bottom">
         <div class="content">
             {{ content | safe }}
+            <h1>Services</h1>
+            {% for service in sitedata.services %}
+                {{ renderServiceItem(service) }}
+            {% endfor %}
+            <h1>Packages</h1>
+            {% for package in sitedata.packages %}
+                {{ renderServiceItem(package) }}
+            {% endfor %}
+
         </div>
     </div>
 </article>

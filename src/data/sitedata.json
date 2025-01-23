@@ -45,235 +45,88 @@
     "intro_header": "Overview",
     "intro": "I have more than twenty years of experience working in marketing. I have originated digital campaigns, worked with stakeholders on high profile web properties, and managed several small teams to success. I also have experience as a storyteller, voice over artist, and video producer. I enjoy working with other people to create new and entertaining things - be they ad campaigns, products, or experiences."
   },
-  "skills": {
-    "title": "Skills",
-    "sections": [
-      {
-        "title": "Skills",
-        "items": [
-          "Marketing",
-          "Web Content Strategy",
-          "Video Production",
-          "SEO",
-          "Localization",
-          "Audio Editing / Voice Over",
-          "DJ",
-          "Technical Writing",
-          "Copy Editing"
-        ]
-      },
-      {
-        "title": "Languages / Frameworks",
-        "items": ["Javascript", "Node", "React", "HTML", "CSS", "PHP", "SQL", "C++", "Python"]
-      },
-      {
-        "title": "Tools / Software",
-        "items": [
-          "Wordpress",
-          "Contentful",
-          "Contentstack",
-          "Sanity.io",
-          "11ty",
-          "Git",
-          "ZenDesk",
-          "Marketo",
-          "Google Analytics / G4",
-          "Figma",
-          "Shopify",
-          "BigCommerce",
-          "Smartling",
-          "Drupal",
-          "Cockpit CMS",
-          "JIRA",
-          "FinalCut",
-          "Adobe Design Suite"
-        ]
-      }
-    ]
-  },
-  "casestudies": {
-    "title": "Case Studies",
-    "sites": [
-      {
-        "title": "Contentstack",
-        "thumbs": ["thm-contentstack.jpg"],
-        "role": "Developer",
-        "tech": "Gatsby, Contentstack",
-        "description": "The assignment here was to take a junior team and improve the quality of work they were delivering while also helping to internally overhaul the web department. We used our own product as a headless CMS, and spent a good deal of the year I worked here cleaning up technoical debt and learning best practices. We were able to reduce the size of the codebase by about half, and also improved turnaround time on new work by around 200%.",
-        "url": "https://www.contentstack.com",
-        "modal_thumb": "thm-contentstack.jpg"
-      },
-      {
-        "title": "Dynamic Signal",
-        "thumbs": ["thm-dynamicsignal-desktop.jpg", "thm-dynamicsignal-mobile.jpg"],
-        "role": "Developer / Designer",
-        "tech": "Wordpress, Pug, Gulp",
-        "description": "I came into this site after it had been online for four years and reworked through several agencies. I rebuilt the theme using modern practices, implemented version control, and removed all front end plugins. I was able to reduce page load time from an average of 14s per page to a more reasonable 2.5s per page. I was then able to help the content team double time spent on page and significantly increase organic search traffic. Through funnel optimization and UX improvement, total site conversions doubled.",
-        "url": "https://www.dynamicsignal.com",
-        "modal_thumb": "thm-ds.jpg"
-      },
-      {
-        "title": "Dynamic Signal Support",
-        "thumbs": ["thm-dssupport-desktop.jpg", "thm-dssupport-mobile.jpg"],
-        "role": "Developer",
-        "tech": "Zendesk, Vue, Theming & Customization",
-        "description": "The Dynamic Signal Support site is built on the ZenDesk platform using a custom theme. This was a cross-departmental effort which I ran and coordinated. This work also included some light work with Vue, as that is what ZenDesk's front end is built with.",
-        "url": "https://support.dynamicsignal.com",
-        "modal_thumb": "thm-ds.jpg"
-      },
-      {
-        "title": "XCOM",
-        "thumbs": ["thm-xcom-desktop.jpg", "thm-xcom-mobile.jpg"],
-        "role": "Developer",
-        "tech": "Expression Engine, Telemetry, Localization",
-        "description": "This was 2k's first experimentation with surfacing in game live stats to enrich the user experience at the site and provide some connectivity to the game. We used ajax calls to collect and store stats locally on our server, then built a dynamic infographic displaying community stats from these data.",
-        "url": "https://www.xcom.com",
-        "modal_thumb": "thm-xcom-modal.jpg"
-      },
-      {
-        "title": "WWE 2K",
-        "thumbs": ["thm-wwe-desktop.jpg", "thm-wwe-mobile.jpg"],
-        "role": "Developer",
-        "tech": "Expression Engine, Localization, Oauth",
-        "description": "This site was our department's first effort in building a localized site. In its original iteration, we supported Spanish and English, using Expression Engine's built in localization features for support.",
-        "url": "https://wwe.2k.com/",
-        "modal_thumb": "thm-wwe-modal.jpg"
-      },
-      {
-        "title": "WWE 2K Logo Uploader",
-        "thumbs": ["thm-uploader-desktop.jpg"],
-        "role": "Developer",
-        "tech": "PHP, Rest API, Memcache, Oauth",
-        "description": "This site was built to interface with the in-game experience of WWE 2K '17. Players could upload and manage their in game images from the site. This was a front end application built in javascript with a php component, connecting to a REST API endpoint provided through a third party. The interior design of the application was skinned to match the in game experience.",
-        "modal_thumb": "thm-wwe-modal.jpg"
-      },
-      {
-        "title": "Borderlands",
-        "thumbs": ["thm-borderlands-desktop.jpg", "thm-borderlands-mobile.jpg"],
-        "role": "Developer",
-        "tech": "Expression Engine, Localization, Social Media API",
-        "description": "Borderlands is a large, well known franchise. The challenge here was in creating a visual spectacle with the site to showcase the franchise's unique look and feel. Also, with a large amount of DLC, the relationships between various products and package deals was a taxonomical challenge. With a localized site, content spaces with so much imagery had to be carefully designed to be flexible to fit differently sized strings. Additionally, the site featured social media API interaction and a Skill Tree calculator web application.",
-        "url": "https://www.borderlandsthegame.com/",
-        "modal_thumb": "thm-borderlands-modal.jpg"
-      },
-      {
-        "title": "Hangar 13 Games",
-        "thumbs": ["thm-hangar13-desktop.jpg", "thm-hangar13-mobile.jpg"],
-        "role": "Developer",
-        "tech": "Static Generated, Continuous Deployment, Rest API based CMS, Jade/Pug",
-        "description": "This is a small site for one of 2k's Game Developers. It is fed by a centralized CMS, and statically generated under continuous deploy using TeamCity as the build agent. With smaller clients, there is often a problem of throughput. In this case, the studio's active social media activity to keep their site in the moment, along with relevant aggregated news from mafiagame.com, which showcases the studios current offering, Mafia 3. By organizing the content in chronological order from most recent, returning visitors are given content to engage with the studio on, with very little additional input from their team.",
-        "url": "https://hangar13games.com/",
-        "modal_thumb": "thm-hangar13-modal.jpg"
-      }
-    ]
-  },
-  "resume": {
-    "title": "Work History",
-    "pdf_link": "",
-    "jobs": [
-      {
-        "name": "Contentstack",
-        "description": "Contentstack is a headless CMS provider. I worked as team lead with a group of developers in Mumbai to build and support the company's marketing and documentation sites. My time was split between managing and coaching the team, writing code, and working with stakeholders to develop a roadmap.",
-        "location": "San Diego, CA",
-        "url": "contentstack.com",
-        "thumb": "thm-ds.jpg",
-        "positions": [
-          {
-            "time_span": "2020 - 2022",
-            "title": "Senior Web Developer & Team Lead",
-            "description": ""
-          }
-        ]
-      },
-      {
-        "name": "Dynamic Signal",
-        "description": "Dynamic Signal (now FirstUp) is a B2B Saas company. I was in charge of their public facing web properties. This included a public Wordpress Site, a support site at Zendesk, a Marketo Installation, and a Content Hub at Uberflip. Along with development and maintenance, my work also involved analytics, strategy, and content creation.",
-        "location": "San Bruno, CA",
-        "url": "dynamicsignal.com",
-        "thumb": "thm-ds.jpg",
-        "positions": [
-          {
-            "time_span": "2018 - 2020",
-            "title": "Senior Web Developer",
-            "description": ""
-          },
-          {
-            "time_span": "2017 - 2018",
-            "title": "Web Production Manager",
-            "description": ""
-          }
-        ]
-      },
-      {
-        "name": "2K Games",
-        "description": "2K Games is a video game publisher of titles such as Borderlands, Civilization, and NBA 2K. I was the first full time web developer in 2K's marketing department. Previous to my arrival, sites were built through managed agencies. After implementing basic processes, source control, and tightening security, I was promoted and my team got a second developer. Together, we unified the sites to a single headless CMS. We were then able to consolidate our content editing and localization efforts. The system we built is still in use today and has expanded to support many other features in the 2K ecosystem.",
-        "location": "Novato, CA",
-        "url": "2k.com",
-        "thumb": "thm-2k.jpg",
-        "positions": [
-          {
-            "time_span": "2016 - 2017",
-            "title": "Senior Web Developer",
-            "description": ""
-          },
-          {
-            "time_span": "2013 - 2016",
-            "title": "Web Developer",
-            "description": ""
-          }
-        ]
-      },
-      {
-        "name": "Medley Health",
-        "description": "Medley was a startup company in the medical industry, who provided membership model practice management services for primary care physicians. I ran their public websites, managed content, and provided other web related support and development. The company is now defunct.",
-        "location": "Dublin, CA",
-        "url": "",
-        "thumb": "thm-medley.jpg",
-        "positions": [
-          {
-            "time_span": "2011 - 2012",
-            "title": "Web Content Manager / Developer",
-            "description": ""
-          }
-        ]
-      },
-      {
-        "name": "WAAF and Mike FM (Entercom)",
-        "description": "WAAF and Mike FM are/were two Boston music radio stations owned by Entercom. WAAF remains a top rated station, while Mike FM has since gone off-air. I managed a team of content producers, and also worked in a variety of roles to support and create video, web, and mobile content for our listeners in conjunction with our station's on-air personalities as well as local and national celebrities. On the development side, I built several novelty apps which we hosted at the station sites, and provided ongoing support and development for online contesting, event specific microsites, and ad placement on the site. I also coached staff and online personalities on blog writing and engaging with their audience over social media.",
-        "location": "Brighton, MA",
-        "url": "waaf.com",
-        "thumb": "thm-waaf.jpg",
-        "positions": [
-          {
-            "time_span": "2008 - 2011",
-            "title": "Online Content Director",
-            "description": ""
-          }
-        ]
-      },
-      {
-        "name": "Web Consultant / Freelancer",
-        "description": "I work on and off as a freelance developer and designer. Along with my web work, I do consulting in basic IT, application training, and print design. Clients have included film, healthcare, environmental, and other concerns.",
-        "location": "Amesbury, MA",
-        "url": "alexbeuscher.com",
-        "thumb": "thm-self.jpg",
-        "positions": [
-          {
-            "time_span": "1998 - present",
-            "title": "Self Employed",
-            "description": ""
-          }
-        ]
-      }
-    ]
-  },
-  "education": {
-    "title": "Education",
-    "credentials": [
-      {
-        "school": "Emerson College",
-        "degree": "BFA in Writing, Literature, and Publishing"
-      }
-    ]
-  }
+  "services": [
+    {
+      "header": "Digital Marketing Strategy Development",
+      "content": "Crafting a marketing strategy that aligns with both your business goals and the needs of the people who will implement it. My focus is on creating sustainable, adaptable marketing strategies that consider your team's dynamics and the flexibility needed in an evolving market.",
+      "scope": "Initial consultations, a comprehensive strategy document, and a follow-up session to review and adjust.",
+      "totalhours": 40,
+      "hourlyrate": 150,
+      "estimatedcost": 6000
+    },
+    {
+      "header": "Vendor Management & Outsourcing Consultation",
+      "content": "Building strong relationships with vendors is essential for long-term success. I help you find and vet partners who align with your business values, ensuring open communication and a smooth handoff to those who will execute the work. The focus is on avoiding lock-in with proprietary systems, choosing decentralized, standards-based options where possible.",
+      "scope": "Vendor search, recommendations, and communication management until the project starts.",
+      "totalhours": 25,
+      "hourlyrate": 150,
+      "estimatedcost": 3750
+    },
+    {
+      "header": "Web Presence Assessment & Strategy",
+      "content": "Your web presence is more than just a digital storefront—it's how your business interacts with its audience. I conduct a thorough audit of your site and digital channels, focusing on usability, SEO, and scalability, then provide a clear roadmap for improvement. The goal is to build a resilient web presence that grows with your business.",
+      "scope": "Web audit, 1-hour presentation of findings, and a roadmap for improvements.",
+      "totalhours": 30,
+      "hourlyrate": 150,
+      "estimatedcost": 4500
+    },
+    {
+      "header": "Digital Transformation Consulting",
+      "content": "Helping businesses adopt modern, decentralized digital tools for long-term growth. Whether it's an eCommerce platform, CMS, or CRM, my approach is rooted in open standards to avoid vendor lock-in and ensure scalability. We'll work together to choose the right tools and make sure they integrate seamlessly into your existing operations.",
+      "scope": "Digital tools assessment, strategy document, implementation plan, and follow-up sessions.",
+      "totalhours": 50,
+      "hourlyrate": 150,
+      "estimatedcost": 7500
+    },
+    {
+      "header": "Marketing Campaign Direction",
+      "content": "Marketing campaigns should evolve with the market. My role is to create an adaptable, people-centered campaign strategy, ensuring alignment with your brand values and flexibility to pivot based on ongoing results. I'll oversee the execution by third-party vendors, making sure your team and the external partners work in harmony.",
+      "scope": "Initial campaign strategy document, regular check-ins, and final performance report.",
+      "totalhours": 35,
+      "hourlyrate": 200,
+      "estimatedcost": 7000
+    },
+    {
+      "header": "Web Development Oversight",
+      "content": "Managing the development of secure, standards-based web solutions, I focus on projects that prioritize open systems, scalability, and the long-term resilience of your business. I ensure that everything from frontend to backend is implemented using best practices and designed for future growth.",
+      "scope": "Project oversight, code reviews, and ensuring delivery aligns with your business goals.",
+      "totalhours": 45,
+      "hourlyrate": 180,
+      "estimatedcost": 8100
+    },
+    {
+      "header": "Technology Integration & Automation",
+      "content": "Automating business processes and integrating new technology should be a seamless experience. I help identify the right systems, focusing on decentralized, open platforms to ensure flexibility and avoid vendor lock-in. Together, we'll implement solutions that grow with your business and improve operational efficiency.",
+      "scope": "Tech assessment, integration plan, and oversight of implementation.",
+      "totalhours": 60,
+      "hourlyrate": 180,
+      "estimatedcost": 10800
+    }
+  ],
+  "packages": [
+    {
+      "header": "Foundations Package",
+      "content": "Best for early-stage businesses or those looking for foundational digital marketing strategies without oversaturation in the market. This package focuses on businesses that need to establish a clear, strategic digital presence in a market where options are limited.",
+      "scope": "Digital Marketing Strategy Development and Web Presence Assessment & Strategy",
+      "totalhours": 50,
+      "hourlyrate": 150,
+      "estimatedcost": 7500
+    },
+    {
+      "header": "Growth & Differentiation Package",
+      "content": "Best for mid-stage businesses or those in oversaturated markets looking to stand out and scale through smart digital strategies. For businesses struggling with differentiation in crowded markets, this package offers comprehensive digital and marketing strategies designed to help them carve out a unique space.",
+      "scope": "Marketing Campaign Direction, Vendor Management & Outsourcing Consultation, and Web Development Oversight",
+      "totalhours": 70,
+      "hourlyrate": 165,
+      "estimatedcost": 9450
+    },
+    {
+      "header": "Budget Essentials Package",
+      "content": "Best for businesses with limited budgets but looking to get the most out of their digital presence and marketing efforts. This is a more affordable option for businesses that may not be able to afford comprehensive packages but still need help with core aspects of their digital marketing and web presence.",
+      "scope": "Digital Marketing Strategy Development and Web Presence Assessment",
+      "totalhours": 30,
+      "hourlyrate": 150,
+      "estimatedcost": 4500
+    }
+  ]
 }

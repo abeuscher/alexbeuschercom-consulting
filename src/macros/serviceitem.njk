@@ -1,0 +1,28 @@
+{% macro renderServiceItem(item) %}
+    <div class="service-item">
+        <h2 class="service-header">{{ item.header }}</h2>
+        <div class="service-content">
+            <p>{{ item.content }}</p>
+        </div>
+        <div class="service-details">
+            <div class="service-detail">
+                <span class="detail-label">Scope:</span>
+                <span class="detail-value">{{ item.scope }}</span>
+            </div>
+            <div class="service-metrics">
+                <div class="metric total-hours">
+                    <span class="metric-label">Total Hours:</span>
+                    <span class="metric-value">{{ item.totalhours }}</span>
+                </div>
+                <div class="metric hourly-rate">
+                    <span class="metric-label">Hourly Rate:</span>
+                    <span class="metric-value">${{ item.hourlyrate }}</span>
+                </div>
+                <div class="metric estimated-cost">
+                    <span class="metric-label">Estimated Cost:</span>
+                    <span class="metric-value">${{ item.estimatedcost }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endmacro %}
