@@ -47,6 +47,80 @@
       }
     ]
   },
+  "case_studies": [
+    {
+      "title": "Marketing Analytics Optimization",
+      "company": "Dynamic Signal",
+      "location": "San Bruno, CA",
+      "key_metrics": [
+        {
+          "label": "Load time reduction",
+          "value": "14s → 2.5s"
+        },
+        {
+          "label": "Conversion rate",
+          "value": "100% increase"
+        },
+        {
+          "label": "Time on page",
+          "value": "2x improvement"
+        },
+        {
+          "label": "Organic traffic",
+          "value": "45% growth"
+        }
+      ],
+      "content": "<p>At Dynamic Signal, I inherited a bloated WordPress installation that had accumulated technical debt through multiple agency handoffs. The site was struggling with basic performance metrics and the marketing team was drowning in analytics data without clear direction on what mattered.</p><p>I rebuilt the theme using modern practices, eliminated unnecessary front-end plugins, and implemented version control. More importantly, I worked with stakeholders to identify three key performance indicators that actually mattered to the business. By focusing our optimization efforts on these core metrics rather than trying to improve everything at once, we were able to demonstrate clear ROI and sustainable growth.</p><p>The result was not just technical improvement but a fundamental shift in how the organization approached web analytics. The marketing team was able to make data-driven decisions without getting lost in vanity metrics, leading to more effective campaigns and better resource allocation.</p>"
+    },
+    {
+      "title": "Technical Leadership & Debt Reduction",
+      "company": "Contentstack",
+      "location": "San Diego, CA",
+      "key_metrics": [
+        {
+          "label": "Codebase reduction",
+          "value": "50%"
+        },
+        {
+          "label": "Development speed",
+          "value": "200% faster"
+        },
+        {
+          "label": "Team size",
+          "value": "6 junior developers"
+        },
+        {
+          "label": "Project completion rate",
+          "value": "3x improvement"
+        }
+      ],
+      "content": "<p>At Contentstack, I was tasked with improving the output of a junior development team while simultaneously overhauling the web department. The challenge was unique - we were using our own product as a headless CMS while teaching best practices to an emerging team.</p><p>Through systematic code review, pair programming, and establishment of clear standards, we transformed a sprawling codebase into a lean, maintainable system. I instituted regular architecture reviews and implemented a mentorship program that accelerated junior developer growth while reducing technical debt.</p>"
+    },
+    {
+      "title": "Enterprise Content Strategy Transformation",
+      "company": "2K Games",
+      "location": "Novato, CA",
+      "key_metrics": [
+        {
+          "label": "Systems consolidated",
+          "value": "5 → 1"
+        },
+        {
+          "label": "Languages supported",
+          "value": "12"
+        },
+        {
+          "label": "Annual content updates",
+          "value": "3,000+"
+        },
+        {
+          "label": "Cost reduction",
+          "value": "60%"
+        }
+      ],
+      "content": "<p>At 2K Games, I led the transition from agency-dependent web properties to a unified, in-house content management system. The challenge was maintaining high-quality content across multiple game franchises while supporting global localization needs.</p><p>By implementing a headless CMS architecture and establishing clear content workflows, we created a system that dramatically reduced publishing time while improving content quality. The system was so effective it became the standard for other departments and continues to serve as the foundation for 2K's web presence today.</p><p>What's remarkable about this transformation was its sustainability - the architecture we established has continued to evolve and serve the organization's needs long after my departure, proving the value of well-planned content strategy over quick fixes.</p>"
+    }
+  ],
   "footer": {
     "legal": "© Alex Beuscher 2024",
     "nav": [

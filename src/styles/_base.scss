@@ -29,8 +29,22 @@ h6 {
 }
 
 h1 {
-  font-size: 1.8em;
-  border-bottom: 2px solid $gray;
+  color: $dark-blue;
+  font-size: 2.5rem;
+  margin: 3rem 0 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid rgba($dark-blue, 0.2);
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: $dark-blue;
+  }
 }
 
 a {

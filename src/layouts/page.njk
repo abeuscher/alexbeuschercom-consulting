@@ -7,6 +7,8 @@ image: "/images/logo.png"
 datePublished: "2024-01-01"
 ---
 {% from "../macros/serviceitem.njk" import renderServiceItem %}
+{% from "../macros/case-studies.njk" import renderCaseStudy %}
+
 <article>
     <div class="content-wrapper padding-bottom">
         <div class="content">
@@ -14,8 +16,10 @@ datePublished: "2024-01-01"
                 {{ content | safe }}
             </section>
             <section id="portfolio">
-                <h1>Portfolio</h1>
-                <p>lorem ipsum...</p>
+                <h1>Case Studies</h1>
+                {% for study in sitedata.case_studies %}
+                    {{ renderCaseStudy(study) }}
+                {% endfor %}
             </section>
             <section id="services">
                 <h1>Services</h1>

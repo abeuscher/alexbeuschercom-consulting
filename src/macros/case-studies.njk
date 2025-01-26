@@ -1,0 +1,24 @@
+{% macro renderCaseStudy(study) %}
+    <div class="case-study">
+        <div class="case-header">
+            <h2>{{ study.title }}</h2>
+            <div class="company-info">
+                <span class="company">{{ study.company }}</span>
+                <span class="location">{{ study.location }}</span>
+            </div>
+        </div>
+
+        <div class="metrics-grid">
+            {% for metric in study.key_metrics %}
+                <div class="metric">
+                    <div class="metric-value">{{ metric.value }}</div>
+                    <div class="metric-label">{{ metric.label }}</div>
+                </div>
+            {% endfor %}
+        </div>
+
+        <div class="case-content">
+            {{ study.content | safe }}
+        </div>
+    </div>
+{% endmacro %}
