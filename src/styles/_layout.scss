@@ -29,3 +29,8 @@ section {
     flex-direction: column;
   }
 }
+@media (max-width: $mobile-breakpoint) {
+  article {
+    margin-top: calc($header-height-mobile + 3rem);
+  }
+}
