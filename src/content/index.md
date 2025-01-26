@@ -9,7 +9,7 @@ nav: "home"
 tags: []
 ---
 
-# About Me
+# Digital Marketing & Web Consulting
 
 I have been working in digital marketing and website development for more than 25 years. In that time, I have found that many businesses approach their web presence by employing expensive and time-consuming tools and methodologies, often wasting resources trying to imitate organizations fundamentally different from their own. I've watched companies obsess over pageviews while their conversion rates plummet, or track dozens of metrics without moving the needle on sales. I believe that the modern focus on analytics in marketing is often a form of process addiction which drains both motivation, purpose, and money from a business with little to no return on the investment.
 
