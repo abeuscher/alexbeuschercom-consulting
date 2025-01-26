@@ -11,30 +11,40 @@ header {
 
   .inner {
     display: flex;
-    height: $header-height-scrolled;
+    height: $header-height;
     padding: 0 1.5rem;
-  }
-
-  h1 {
-    border-bottom: none;
   }
 
   .logo {
     flex-basis: 50%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-
+    text-decoration: none;
     h1,
     h2 {
       margin: 0 1rem 0 0;
       padding: 0;
       color: $header-text-color;
+      border-bottom: none;
+      text-decoration: none;
+      &:after {
+        display: none;
+      }
     }
     h1 {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
+      flex-basis: 100%;
     }
     h2 {
-      font-size: 0.875rem;
+      font-size: 2rem;
+    }
+    &:active,
+    &:visited {
+      h1,
+      h2 {
+        text-decoration: none;
+      }
     }
   }
 
@@ -50,9 +60,7 @@ header {
       padding: 0.25rem 0.625rem;
       text-decoration: none;
       color: $header-text-color;
-
       position: relative;
-      text-decoration: none;
 
       &::after {
         content: "";
@@ -71,6 +79,7 @@ header {
       }
       &:hover {
         text-decoration: none;
+        color: $link-hover-color;
       }
       &.active {
         &::after {
@@ -79,15 +88,27 @@ header {
       }
     }
   }
+  @media (max-width: $tablet-breakpoint) {
+    .logo {
+      display: block;
+      flex-wrap: nowrap;
+      align-self: center;
+      h1,
+      h2 {
+        font-size: 1em;
+        flex-basis: auto;
+      }
+    }
+    .inner {
+      height: $header-height-mobile;
+    }
+  }
+
   @media (max-width: $mobile-breakpoint) {
     .inner {
-      position: relative;
+      //position: relative;
       justify-content: space-between;
       align-items: center;
-    }
-
-    .logo {
-      flex-basis: auto;
     }
 
     nav {
@@ -98,7 +119,7 @@ header {
       width: 100%;
       background-color: $header-bg-color;
       flex-direction: column;
-      align-items: flex-start;
+      align-items: center;
       padding: 1rem;
 
       &.open {
@@ -108,7 +129,12 @@ header {
       a {
         width: 100%;
         padding: 0.5rem 0;
-        text-align: left;
+        text-align: center;
+        border-bottom: none;
+        font-size: 1.6em;
+        &:after {
+          display: none;
+        }
       }
     }
 

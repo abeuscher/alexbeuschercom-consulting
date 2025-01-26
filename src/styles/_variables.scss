@@ -11,9 +11,10 @@ $nav-font: "Lato", sans-serif;
 $header-bg-color: rgba(0, 0, 0); // Translucent white
 $header-text-color: #f8f8f8; // Dark gray for strong contrast
 $gradient-overlay-opacity: 0.5;
-
-$header-height-default: 6.5rem;
-$header-height-scrolled: 3.75rem;
+$link-hover-color: #f3f384;
+$header-height: 8rem;
+$header-height-mobile: 5rem;
 $header-z-index: 1000;
 $transition-speed: 0.3s;
-$mobile-breakpoint: 768px; // Adjust based on your breakpoints
+$mobile-breakpoint: 768px;
+$tablet-breakpoint: 1280px;
