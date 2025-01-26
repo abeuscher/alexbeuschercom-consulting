@@ -41,11 +41,35 @@ header {
 
     a {
       font-size: 1rem;
-      padding: 0.25rem 0.625rem 0.25rem 0;
+      padding: 0.25rem 0.625rem;
       text-decoration: none;
       color: $header-text-color;
+
+      position: relative;
+      text-decoration: none;
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -4px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: $header-text-color;
+        transition: width 0.3s ease;
+      }
+
+      &:hover::after {
+        width: 100%;
+      }
       &:hover {
-        text-decoration: underline;
+        text-decoration: none;
+      }
+      &.active {
+        &::after {
+          width: 100%;
+        }
       }
     }
   }

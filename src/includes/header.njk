@@ -12,7 +12,7 @@
             </div>
             <nav>
                 {% for item in sitedata.header.nav %}
-                    <a href="{{item.url}}">{{item.text}}</a>
+                    <a href="{{item.url}}" {% if loop.first %}class="active"{% endif %}>{{item.text}}</a>
                 {% endfor %}
             </nav>
         </div>

@@ -26,7 +26,32 @@ const siteActions = [
   {
     element: "body",
     action: () => {
-      console.log("app is working");
+      const sections = document.querySelectorAll("section");
+      const navLinks = document.querySelectorAll("header nav a");
+
+      window.addEventListener("scroll", () => {
+        let currentSection = null;
+
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.offsetHeight;
+          const headerHeight = document.querySelector("header").offsetHeight;
+
+          if (
+            window.scrollY >= sectionTop - headerHeight - 100 &&
+            window.scrollY < sectionTop + sectionHeight - headerHeight
+          ) {
+            currentSection = section;
+          }
+        });
+
+        navLinks.forEach((link) => {
+          link.classList.remove("active");
+          if (currentSection && link.getAttribute("href") === `#${currentSection.id}`) {
+            link.classList.add("active");
+          }
+        });
+      });
     },
   },
   {
