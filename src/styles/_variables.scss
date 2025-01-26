@@ -7,4 +7,12 @@ $gray: #666;
 $body-font: "Source Sans Pro", sans-serif;
 $header-font: "Lato", sans-serif;
 $nav-font: "Lato", sans-serif;
+$header-bg-color: rgba(0, 0, 0); // Translucent white
+$header-text-color: #f8f8f8; // Dark gray for strong contrast
+$gradient-overlay-opacity: 0.5;
 
+$header-height-default: 6.5rem;
+$header-height-scrolled: 3.75rem;
+$header-z-index: 1000;
+$transition-speed: 0.3s;
+$mobile-breakpoint: 768px; // Adjust based on your breakpoints

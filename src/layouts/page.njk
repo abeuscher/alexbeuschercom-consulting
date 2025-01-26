@@ -10,16 +10,29 @@ datePublished: "2024-01-01"
 <article>
     <div class="content-wrapper padding-bottom">
         <div class="content">
-            {{ content | safe }}
-            <h1>Services</h1>
-            {% for service in sitedata.services %}
-                {{ renderServiceItem(service) }}
-            {% endfor %}
-            <h1>Packages</h1>
-            {% for package in sitedata.packages %}
-                {{ renderServiceItem(package) }}
-            {% endfor %}
-
+            <section id="about">
+                {{ content | safe }}
+            </section>
+            <section id="portfolio">
+                <h1>Portfolio</h1>
+                <p>lorem ipsum...</p>
+            </section>
+            <section id="services">
+                <h1>Services</h1>
+                {% for service in sitedata.services %}
+                    {{ renderServiceItem(service) }}
+                {% endfor %}
+            </section>
+            <section id="packages">
+                <h1>Packages</h1>
+                {% for package in sitedata.packages %}
+                    {{ renderServiceItem(package) }}
+                {% endfor %}
+            </section>
+            <section id="contact">
+                <h1>Contact</h1>
+                <p>lorem ipsum...</p>
+            </section>
         </div>
     </div>
 </article>

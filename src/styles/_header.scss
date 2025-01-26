@@ -1,16 +1,126 @@
 @use "variables" as *;
+
 header {
+  background-color: $header-bg-color;
+  color: $header-text-color;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: $header-z-index;
+
+  .inner {
+    display: flex;
+    height: $header-height-scrolled;
+    padding: 0 1.5rem;
+  }
+
   h1 {
     border-bottom: none;
   }
-  text-align: center;
+
+  .logo {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+
+    h1,
+    h2 {
+      font-size: 0.875rem;
+      margin-right: 0.625rem;
+      color: $header-text-color;
+    }
+  }
+
   nav {
+    flex-basis: 50%;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
     a {
-      font-size: 1.4em;
-      padding: 6px 10px;
+      font-size: 1rem;
+      padding: 0.25rem 0.625rem 0.25rem 0;
       text-decoration: none;
+      color: $header-text-color;
       &:hover {
         text-decoration: underline;
+      }
+    }
+  }
+  @media (max-width: $mobile-breakpoint) {
+    .inner {
+      position: relative;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      flex-basis: auto;
+    }
+
+    nav {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: $header-bg-color;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 1rem;
+
+      &.open {
+        display: flex;
+      }
+
+      a {
+        width: 100%;
+        padding: 0.5rem 0;
+        text-align: left;
+      }
+    }
+
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      width: 30px;
+      height: 20px;
+      position: relative;
+
+      span {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: $header-text-color;
+        position: absolute;
+        transition: all 0.3s ease;
+
+        &:nth-child(1) {
+          top: 0;
+        }
+        &:nth-child(2) {
+          top: 50%;
+          transform: translateY(-50%);
+        }
+        &:nth-child(3) {
+          bottom: 0;
+        }
+      }
+
+      &.open {
+        span:nth-child(1) {
+          top: 50%;
+          transform: translateY(-50%) rotate(45deg);
+        }
+        span:nth-child(2) {
+          opacity: 0;
+        }
+        span:nth-child(3) {
+          bottom: 50%;
+          transform: translateY(50%) rotate(-45deg);
+        }
       }
     }
   }

@@ -16,6 +16,28 @@
     "site_title": "Digital Marketing & Web Consulting",
     "nav": [
       {
+        "text": "About",
+        "url": "#about"
+      },
+      {
+        "text": "Portfolio",
+        "url": "#portfolio"
+      },
+      {
+        "text": "Services",
+        "url": "#services"
+      },
+      {
+        "text": "Packages",
+        "url": "#packages"
+      },
+      {
+        "text": "Contact",
+        "url": "#contact"
+      }
+    ],
+    "contact": [
+      {
         "text": "alexbeuscher@gmail.com",
         "url": "mailto:alexbeuscher@gmail.com"
       },

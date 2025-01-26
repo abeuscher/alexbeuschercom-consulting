@@ -1,6 +1,7 @@
 @use "variables" as *;
 
 footer {
-    text-align: center;
-    color: $white;
+  text-align: center;
+  color: $white;
+  min-height: 40vh;
 }
