@@ -9,7 +9,7 @@
   }
 }
 article {
-  margin-top: 120px;
+  margin-top: calc($header-height + 3rem);
 }
 section {
   background-color: $white;
