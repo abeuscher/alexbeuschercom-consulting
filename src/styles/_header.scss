@@ -109,7 +109,7 @@ header {
   @media (max-width: $tablet-breakpoint) {
     .logo {
       display: block;
-      flex-wrap: nowrap;
+      flex-basis: auto;
       align-self: center;
       h1,
       h2 {

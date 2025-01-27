@@ -1,7 +1,4 @@
 const siteSettings = {
-  imagePath: "",
-  videoPath: "",
-  templates: {},
   breakpoints: {
     xs: 0,
     s: 641,
@@ -11,67 +8,46 @@ const siteSettings = {
   },
 };
 
-window.addEventListener("load", () => {
-  for (const thisAction of siteActions) {
-    if (document.querySelectorAll(thisAction.element).length > 0) {
-      thisAction.action(
-        document.querySelectorAll(thisAction.element),
-        siteSettings.scrollController,
-      );
-    }
-  }
-});
-
 const siteActions = [
   {
     element: "body",
     action: () => {
       const sections = document.querySelectorAll("section");
       const navLinks = document.querySelectorAll("header nav a");
+      const headerHeight = document.querySelector("header").offsetHeight;
+      const homeLink = [...navLinks].find((link) => link.getAttribute("href") === "/");
+
+      if (homeLink) homeLink.classList.add("active");
 
       window.addEventListener("scroll", () => {
-        let currentSection = null;
+        const scrollPosition = window.scrollY;
+        let isAnySelected = false;
+
+        navLinks.forEach((link) => link.classList.remove("active"));
 
         sections.forEach((section) => {
           const sectionTop = section.offsetTop;
           const sectionHeight = section.offsetHeight;
-          const headerHeight = document.querySelector("header").offsetHeight;
 
           if (
-            window.scrollY >= sectionTop - headerHeight - 100 &&
-            window.scrollY < sectionTop + sectionHeight - headerHeight
+            scrollPosition >= sectionTop - headerHeight - 100 &&
+            scrollPosition < sectionTop + sectionHeight - headerHeight
           ) {
-            currentSection = section;
+            isAnySelected = true;
+            if (section.id === "about") {
+              if (homeLink) homeLink.classList.add("active");
+            } else {
+              const correspondingLink = [...navLinks].find(
+                (link) => link.getAttribute("href") === `#${section.id}`,
+              );
+              if (correspondingLink) correspondingLink.classList.add("active");
+            }
           }
         });
 
-        navLinks.forEach((link) => {
-          link.classList.remove("active");
-          if (currentSection && link.getAttribute("href") === `#${currentSection.id}`) {
-            link.classList.add("active");
-          }
-        });
-      });
-    },
-  },
-  {
-    element: 'a[href^="#"]',
-    action: (anchorLinks) => {
-      anchorLinks.forEach((link) => {
-        link.addEventListener("click", (e) => {
-          e.preventDefault();
-          const targetId = link.getAttribute("href");
-          const targetSection = document.querySelector(targetId);
-          const headerHeight = document.querySelector("header").offsetHeight;
-
-          if (targetSection) {
-            const offset = targetSection.offsetTop - headerHeight - 50;
-            window.scrollTo({
-              top: offset,
-              behavior: "smooth",
-            });
-          }
-        });
+        if (!isAnySelected && scrollPosition < headerHeight) {
+          if (homeLink) homeLink.classList.add("active");
+        }
       });
     },
   },
@@ -80,11 +56,7 @@ const siteActions = [
     action: (els) => {
       const header = els[0];
       window.addEventListener("scroll", () => {
-        if (window.scrollY > 200) {
-          header.classList.add("scrolled");
-        } else {
-          header.classList.remove("scrolled");
-        }
+        header.classList.toggle("scrolled", window.scrollY > 200);
       });
     },
   },
@@ -118,3 +90,12 @@ const siteActions = [
     },
   },
 ];
+
+window.addEventListener("load", () => {
+  siteActions.forEach(({ element, action }) => {
+    const elements = document.querySelectorAll(element);
+    if (elements.length > 0) {
+      action(elements);
+    }
+  });
+});
