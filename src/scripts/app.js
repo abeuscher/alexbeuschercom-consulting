@@ -76,6 +76,19 @@ const siteActions = [
     },
   },
   {
+    element: "header",
+    action: (els) => {
+      const header = els[0];
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 200) {
+          header.classList.add("scrolled");
+        } else {
+          header.classList.remove("scrolled");
+        }
+      });
+    },
+  },
+  {
     element: ".hamburger",
     action: (hamburgers) => {
       hamburgers.forEach((hamburger) => {

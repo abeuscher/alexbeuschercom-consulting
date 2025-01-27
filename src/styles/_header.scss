@@ -13,6 +13,7 @@ header {
     display: flex;
     height: $header-height;
     padding: 0 1.5rem;
+    transition: 0.1s all ease-in;
   }
 
   .logo {
@@ -37,7 +38,7 @@ header {
       flex-basis: 100%;
     }
     h2 {
-      font-size: 2rem;
+      display: none;
     }
     &:active,
     &:visited {
@@ -47,7 +48,24 @@ header {
       }
     }
   }
-
+  &.scrolled {
+    .inner {
+      height: $header-height-scrolled;
+    }
+    .logo {
+      display: flex;
+      h1,
+      h2 {
+        font-size: 1rem;
+      }
+      h1 {
+        flex-basis: auto;
+      }
+      h2 {
+        display: block;
+      }
+    }
+  }
   nav {
     flex-basis: 50%;
     text-align: right;

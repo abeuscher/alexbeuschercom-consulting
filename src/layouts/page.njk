@@ -15,7 +15,7 @@ datePublished: "2024-01-01"
             <section id="about">
                 {{ content | safe }}
             </section>
-            <section id="portfolio">
+            <section id="case-studies">
                 <h1>Case Studies</h1>
                 {% for study in sitedata.case_studies %}
                     {{ renderCaseStudy(study) }}
@@ -27,12 +27,14 @@ datePublished: "2024-01-01"
                     {{ renderServiceItem(service) }}
                 {% endfor %}
             </section>
+            <!--
             <section id="packages">
                 <h1>Packages</h1>
                 {% for package in sitedata.packages %}
                     {{ renderServiceItem(package) }}
                 {% endfor %}
             </section>
+            //-->
             <section id="contact">
                 <h1>Contact</h1>
                 <p>lorem ipsum...</p>

@@ -13,23 +13,19 @@
   },
   "header": {
     "name": "Alex Beuscher",
-    "site_title": "Digital Marketing & Web Consulting",
+    "title": "Digital Marketing & Web Consulting",
     "nav": [
       {
         "text": "About",
-        "url": "#about"
+        "url": "/"
       },
       {
-        "text": "Portfolio",
-        "url": "#portfolio"
+        "text": "Case Studies",
+        "url": "#case-studies"
       },
       {
         "text": "Services",
         "url": "#services"
-      },
-      {
-        "text": "Packages",
-        "url": "#packages"
       },
       {
         "text": "Contact",
