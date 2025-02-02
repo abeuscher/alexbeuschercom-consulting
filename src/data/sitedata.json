@@ -11,6 +11,82 @@
     "site_thumb": "al_pic-lg.jpg",
     "permalink": "https://alexbeuscher.com/"
   },
+  "multimedia": {
+    "audio": [
+      {
+        "src": "audio/audiosample_bernies.mp3",
+        "type": "audio/mpeg",
+        "title": "Bernie & Phil's Commercial",
+        "description": "Commercial spot for Bernie & Phil's furniture store"
+      },
+      {
+        "src": "audio/audiosample_clintonsavings.mp3",
+        "type": "audio/mpeg",
+        "title": "Clinton Savings Bank",
+        "description": "Commercial spot for Clinton Savings Bank"
+      },
+      {
+        "src": "audio/audiosample_ge.mp3",
+        "type": "audio/mpeg",
+        "title": "General Electric",
+        "description": "Commercial spot for General Electric"
+      },
+      {
+        "src": "audio/audiosample_intuit.mp3",
+        "type": "audio/mpeg",
+        "title": "Intuit",
+        "description": "Commercial spot for Intuit software"
+      },
+      {
+        "src": "audio/audiosample_preph.mp3",
+        "type": "audio/mpeg",
+        "title": "Pre-Ph Commercial",
+        "description": "Pre-Ph product commercial spot"
+      },
+      {
+        "src": "audio/audiosample_robitussin.mp3",
+        "type": "audio/mpeg",
+        "title": "Robitussin",
+        "description": "Commercial spot for Robitussin medicine"
+      },
+      {
+        "src": "audio/audiosample_starbucks.mp3",
+        "type": "audio/mpeg",
+        "title": "Starbucks",
+        "description": "Commercial spot for Starbucks Coffee"
+      },
+      {
+        "src": "audio/audiosample_suffolk.mp3",
+        "type": "audio/mpeg",
+        "title": "Suffolk University",
+        "description": "Commercial spot for Suffolk University"
+      },
+      {
+        "src": "audio/audiosample_tonightoncbs.mp3",
+        "type": "audio/mpeg",
+        "title": "CBS Programming",
+        "description": "Tonight on CBS programming promo"
+      },
+      {
+        "src": "audio/audiosample_wilburcomedy.mp3",
+        "type": "audio/mpeg",
+        "title": "Wilbur Comedy",
+        "description": "Wilbur Theatre comedy show promo"
+      }
+    ],
+    "video": [
+      {
+        "url": "https://www.youtube.com/watch?v=M1GukNhzugM",
+        "title": "HIE Demo Video",
+        "description": "Demonstration video for HIE of One, an open source medical records initiative. I scripted, recorded, and did the video piece as well."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=rGOYeoeXtWI",
+        "title": "WAAF Highlight Reel",
+        "description": "A collection of clips from my time in radio."
+      }
+    ]
+  },
   "header": {
     "name": "Alex Beuscher",
     "title": "Digital Marketing & Web Consulting",
@@ -26,6 +102,10 @@
       {
         "text": "Services",
         "url": "#services"
+      },
+      {
+        "text": "Voiceover",
+        "url": "#audio"
       },
       {
         "text": "Contact",

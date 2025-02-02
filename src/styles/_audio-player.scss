@@ -1,0 +1,42 @@
+.audio-collection {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.audio-item {
+  background: var(--color-background-alt, #f5f5f5);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  &__header {
+    margin-bottom: 1rem;
+  }
+
+  &__title {
+    font-size: 1.25rem;
+    margin: 0 0 0.5rem 0;
+  }
+
+  &__description {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary, #666);
+    margin: 0;
+  }
+
+  .audio-player {
+    width: 100%;
+
+    // Custom Plyr styling overrides if needed
+    --plyr-color-main: var(--color-primary, #007bff);
+    --plyr-audio-controls-background: transparent;
+  }
+}
+
+// Responsive grid adjustments
+@media (min-width: 768px) {
+  .audio-collection {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}

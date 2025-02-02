@@ -1,0 +1,16 @@
+{% macro videoEmbed(video) %}
+    <div class="video-item">
+        <div class="video-item__header">
+            <h3 class="video-item__title">{{ video.title }}</h3>
+            <p class="video-item__description">{{ video.description }}</p>
+        </div>
+        <div class="video-item__embed">
+            <iframe 
+            src="https://www.youtube.com/embed/{{ video.url | replace('https://www.youtube.com/watch?v=', '') }}"
+            title="{{ video.title }}"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+    </div>
+{% endmacro %}

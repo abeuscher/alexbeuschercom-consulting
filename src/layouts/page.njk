@@ -8,6 +8,8 @@ datePublished: "2024-01-01"
 ---
 {% from "../macros/serviceitem.njk" import renderServiceItem %}
 {% from "../macros/case-studies.njk" import renderCaseStudy %}
+{% from "../macros/audio-player.njk" import audioCollection %}
+{% from "../macros/video-player.njk" import videoEmbed %}
 
 <article>
     <div class="content-wrapper padding-bottom">
@@ -27,14 +29,23 @@ datePublished: "2024-01-01"
                     {{ renderServiceItem(service) }}
                 {% endfor %}
             </section>
-            <!--
-            <section id="packages">
-                <h1>Packages</h1>
-                {% for package in sitedata.packages %}
-                    {{ renderServiceItem(package) }}
-                {% endfor %}
+            <section id="multimedia">
+                <h1>Multimedia Production</h1>
+                <p>I have been involved in film and audio production for about 15 years. My initial foray into the field was as a line producer on an independent film. I worked as a DJ and MC for 10 years following, hosting pub trivia as well as weddings and other events.</p>
+                <p>When I moved into radio, I worked as a content producer and video production comprised about 50% of my time. I had a small team whom I coordinated to film interviews, live events, concerts, and in studio sketches. Since then I have been employed on and off as a voiceover artist in multiple scenarios. I am specifically skilled at production, voiceover, and web integration, but I also can edit, film, and engineer audio at an amateur level.</p>
+                <h2>Audio Samples</h2>
+                <div class="audio-collection">
+                    {% for clip in sitedata.multimedia.audio %}
+                        {{ audioCollection(clip) }}
+                    {% endfor %}
+                </div>
+                <h2>Video Samples</h2>
+                <div class="video-collection">
+                    {% for clip in sitedata.multimedia.video %}
+                        {{ videoEmbed(clip) }}
+                    {% endfor %}
+                </div>
             </section>
-            //-->
             <section id="contact">
                 <h1>Contact</h1>
                 <p>lorem ipsum...</p>

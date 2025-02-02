@@ -19,9 +19,20 @@ header {
   .logo {
     flex-basis: 50%;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     text-decoration: none;
+    .headshot {
+      background: url("/images/al_pic-lg.jpg") no-repeat center center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      max-width: 10rem;
+      max-height: 10rem;
+      border-radius: 50%;
+      margin-right: 15px;
+      transition: 0.25s all ease-in-out;
+      transform-origin: 0%;
+    }
     h1,
     h2 {
       margin: 0 1rem 0 0;
@@ -54,6 +65,11 @@ header {
     }
     .logo {
       display: flex;
+      .headshot {
+        transform: scale(0.3);
+        max-width: 0;
+        max-height: 0;
+      }
       h1,
       h2 {
         font-size: 1rem;
