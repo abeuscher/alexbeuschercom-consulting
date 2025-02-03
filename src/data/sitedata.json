@@ -12,6 +12,8 @@
     "permalink": "https://alexbeuscher.com/"
   },
   "multimedia": {
+    "intro": "I have been involved in film and audio production for about 15 years. My initial foray into the field was as a line producer on an independent film. I worked as a DJ and MC for 10 years following, hosting pub trivia as well as weddings and other events.",
+    "experience": "When I moved into radio, I worked as a content producer and video production comprised about 50% of my time. I had a small team whom I coordinated to film interviews, live events, concerts, and in studio sketches. Since then I have been employed on and off as a voiceover artist in multiple scenarios. I am specifically skilled at production, voiceover, and web integration, but I also can edit, film, and engineer audio at an amateur level.",
     "audio": [
       {
         "src": "audio/audiosample_bernies.mp3",
@@ -197,13 +199,16 @@
       "content": "<p>At 2K Games, I led the transition from agency-dependent web properties to a unified, in-house content management system. The challenge was maintaining high-quality content across multiple game franchises while supporting global localization needs.</p><p>By implementing a headless CMS architecture and establishing clear content workflows, we created a system that dramatically reduced publishing time while improving content quality. The system was so effective it became the standard for other departments and continues to serve as the foundation for 2K's web presence today.</p><p>What's remarkable about this transformation was its sustainability - the architecture we established has continued to evolve and serve the organization's needs long after my departure, proving the value of well-planned content strategy over quick fixes.</p>"
     }
   ],
+  "contact": {
+    "intro": "Please reach out with any questions. I am always happy to help."
+  },
   "footer": {
-    "legal": "© Alex Beuscher 2024",
+    "legal": "© Alex Beuscher 2025",
     "nav": [
       {
         "text": "Github",
         "class": "icon-github",
-        "url": "https://github.com/abeuscher/portfolio"
+        "url": "https://github.com/abeuscher/"
       },
       {
         "text": "LinkedIn",

@@ -1,1 +1,18 @@
-<footer></footer>
+<footer class="site-footer">
+    <div class="footer-content">
+        <div class="footer-legal">
+            {{ sitedata.footer.legal }}
+        </div>
+        <nav class="footer-nav">
+            <ul>
+                {% for item in sitedata.footer.nav %}
+                    <li>
+                        <a href="{{ item.url }}" class="{{ item.class }}">
+                            <span class="sr-only">{{ item.text }}</span>
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
+</footer>

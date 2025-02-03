@@ -6,8 +6,8 @@ description: "Alex Beuscher is a digital consultant."
 image: "/images/logo.png"
 datePublished: "2024-01-01"
 ---
-{% from "../macros/serviceitem.njk" import renderServiceItem %}
-{% from "../macros/case-studies.njk" import renderCaseStudy %}
+{% from "../macros/service-item.njk" import serviceItem %}
+{% from "../macros/case-studies.njk" import caseStudy %}
 {% from "../macros/audio-player.njk" import audioCollection %}
 {% from "../macros/video-player.njk" import videoEmbed %}
 
@@ -20,19 +20,19 @@ datePublished: "2024-01-01"
             <section id="case-studies">
                 <h1>Case Studies</h1>
                 {% for study in sitedata.case_studies %}
-                    {{ renderCaseStudy(study) }}
+                    {{ caseStudy(study) }}
                 {% endfor %}
             </section>
             <section id="services">
                 <h1>Services</h1>
                 {% for service in sitedata.services %}
-                    {{ renderServiceItem(service) }}
+                    {{ serviceItem(service) }}
                 {% endfor %}
             </section>
             <section id="multimedia">
                 <h1>Multimedia Production</h1>
-                <p>I have been involved in film and audio production for about 15 years. My initial foray into the field was as a line producer on an independent film. I worked as a DJ and MC for 10 years following, hosting pub trivia as well as weddings and other events.</p>
-                <p>When I moved into radio, I worked as a content producer and video production comprised about 50% of my time. I had a small team whom I coordinated to film interviews, live events, concerts, and in studio sketches. Since then I have been employed on and off as a voiceover artist in multiple scenarios. I am specifically skilled at production, voiceover, and web integration, but I also can edit, film, and engineer audio at an amateur level.</p>
+                <p>{{ sitedata.multimedia.intro }}</p>
+                <p>{{ sitedata.multimedia.experience }}</p>
                 <h2>Audio Samples</h2>
                 <div class="audio-collection">
                     {% for clip in sitedata.multimedia.audio %}
@@ -48,8 +48,10 @@ datePublished: "2024-01-01"
             </section>
             <section id="contact">
                 <h1>Contact</h1>
-                <p>lorem ipsum...</p>
-            </section>
-        </div>
-    </div>
-</article>
+                <p>{{ sitedata.contact.intro }}</p>
+                <p>phone: <a href="tel:6173596971">(617) 359-6971</p>
+                    <p>email: <a href="mailto:alexbeuscher@gmail.com">alexbeuscher.com</p>
+                    </section>
+                </div>
+            </div>
+        </article>
