@@ -175,6 +175,30 @@
       "content": "<p>At Contentstack, I was tasked with improving the output of a junior development team in Mumbai while overhauling the site development process. The stack we worked with was the company's core product - an enterprise headless CMS in combination with Gatsby.</p><p>I enlisted a number of different approaches to working with this team, including pair programming, general presentations on best practices, and regular one on ones.</p><p>A lot of what was needed here was context; when working with teams in multiple time zones, it is easy to lose the overall goals of a project. By regularly meeting with stakeholders and team members, I made sure that each individual understood their role and the role of the team as a whole. This allowed the team to move more agilely and to feel more confident when making decisions on their own. The result was a significantly leaner codebase, and more activated productive employees.</p>"
     },
     {
+      "title": "Healthcare AI Innovation & Open Source Advocacy",
+      "company": "HIE of One",
+      "location": "Arlington, MA",
+      "key_metrics": [
+        {
+          "label": "Development timeframe",
+          "value": "6 months part-time"
+        },
+        {
+          "label": "Core deliverable",
+          "value": "Application Development"
+        },
+        {
+          "label": "Additional Deliverables",
+          "value": "Website redesign, Social media presence"
+        },
+        {
+          "label": "Tech stack",
+          "value": "Vue.js, AI Integration"
+        }
+      ],
+      "content": "<p>At HIE of One, I contributed to an open source healthcare initiative focused on patient data sovereignty and AI integration. </p><p>I developed a one page application called MAIA or Medical AI Assistant. MAIA ia a Vue.js application demonstrating how patient-controlled health records can safely leverage AI capabilities while maintaining privacy and regulatory compliance. The app serves as a proof of concept for healthcare providers considering open source alternatives to traditional EHR systems. Alongside this development work, I rebuilt <a href='https://hieofone.com/' target='_blank'>the organization's website</a> with new messaging that helped to articulate the technical and ethical foundations of the project.</p><p>While still in its early stages, the project has attracted interest from healthcare researchers in both the US and India.</p>"
+    },
+    {
       "title": "Enterprise Content Strategy Transformation",
       "company": "2K Games",
       "location": "Novato, CA",
