@@ -11,96 +11,73 @@ datePublished: "2024-01-01"
 {% from "../macros/audio-player.njk" import audioCollection %}
 {% from "../macros/video-player.njk" import videoEmbed %}
 
-<article>
+<main>
     <div class="content-wrapper padding-bottom">
         <div class="content">
             <section id="about">
-                {{ content | safe }}
+                <article>
+                    {{ content | safe }}
+                </article>
             </section>
-
             <section id="case-studies">
                 <h1>Case Studies</h1>
                 {% for study in sitedata.case_studies %}
-                    <div class="case-study">
-                        <div class="case-header">
-                            <h2>{{ study.title }}</h2>
-                            <div class="company-info">
-                                <span class="company">{{ study.company }}</span>
-                                <span class="location">{{ study.location }}</span>
-                            </div>
-                        </div>
-                        <dl class="metrics-grid">
-                            {% for metric in study.key_metrics %}
-                                <div class="metric">
-                                    <dt class="metric-label">{{ metric.label }}</dt>
-                                    <dd class="metric-value">{{ metric.value }}</dd>
-                                </div>
-                            {% endfor %}
-                        </dl>
-                        <div class="case-content">
-                            {{ study.content | safe }}
-                        </div>
-                    </div>
+                    <article class="case-study">
+                        {{ caseStudy(study) }}
+                    </article>
                 {% endfor %}
             </section>
 
             <section id="services">
                 <h1>Services</h1>
                 {% for service in sitedata.services %}
-                    <div class="service-item">
+                    <article class="service-item">
                         {{ serviceItem(service) }}
-                        <dl class="service-metrics">
-                            <div class="metric">
-                                <dt class="metric-label">Total Hours</dt>
-                                <dd class="metric-value">{{ service.totalhours }}</dd>
-                            </div>
-                            <div class="metric">
-                                <dt class="metric-label">Hourly Rate</dt>
-                                <dd class="metric-value">${{ service.hourlyrate }}</dd>
-                            </div>
-                            <div class="metric">
-                                <dt class="metric-label">Estimated Cost</dt>
-                                <dd class="metric-value">${{ service.estimatedcost }}</dd>
-                            </div>
-                        </dl>
-                    </div>
+                    </article>
                 {% endfor %}
             </section>
 
             <section id="multimedia">
-                <h1>Multimedia Production</h1>
-                <p>{{ sitedata.multimedia.intro }}</p>
-                <p>{{ sitedata.multimedia.experience }}</p>
+                <article>
+                    <h1>Multimedia Production</h1>
+                    <p>{{ sitedata.multimedia.intro }}</p>
+                    <p>{{ sitedata.multimedia.experience }}</p>
 
-                <h2>Audio Samples</h2>
-                <div class="audio-collection">
-                    {% for clip in sitedata.multimedia.audio %}
-                        <div class="audio-item">
-                            {{ audioCollection(clip) }}
+                    <section>
+                        <h2>Audio Samples</h2>
+                        <div class="audio-collection">
+                            {% for clip in sitedata.multimedia.audio %}
+                                <article class="audio-item">
+                                    {{ audioCollection(clip) }}
+                                </article>
+                            {% endfor %}
                         </div>
-                    {% endfor %}
-                </div>
+                    </section>
 
-                <h2>Video Samples</h2>
-                <div class="video-collection">
-                    {% for clip in sitedata.multimedia.video %}
-                        <div class="video-item">
-                            {{ videoEmbed(clip) }}
+                    <section>
+                        <h2>Video Samples</h2>
+                        <div class="video-collection">
+                            {% for clip in sitedata.multimedia.video %}
+                                <article class="video-item">
+                                    {{ videoEmbed(clip) }}
+                                </article>
+                            {% endfor %}
                         </div>
-                    {% endfor %}
-                </div>
+                    </section>
+                </article>
             </section>
-
             <section id="contact">
-                <h1>Contact</h1>
-                <p>{{ sitedata.contact.intro }}</p>
-                <address>
-                    <p>Phone: <a href="tel:6173596971">(617) 359-6971</a>
-                    </p>
-                    <p>Email: <a href="mailto:alexbeuscher@gmail.com">alexbeuscher@gmail.com</a>
-                    </p>
-                </address>
+                <srticle>
+                    <h1>Contact</h1>
+                    <p>{{ sitedata.contact.intro }}</p>
+                    <address>
+                        <p>Phone: <a href="tel:6173596971">(617) 359-6971</a>
+                        </p>
+                        <p>Email: <a href="mailto:alexbeuscher@gmail.com">alexbeuscher@gmail.com</a>
+                        </p>
+                    </address>
+                </article>
             </section>
         </div>
     </div>
-</article>
+</main>

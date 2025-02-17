@@ -1,6 +1,6 @@
 @use "variables" as *;
 
-header {
+header.main {
   background-color: $header-bg-color;
   color: $header-text-color;
   position: fixed;
@@ -140,9 +140,23 @@ header {
 
   @media (max-width: $mobile-breakpoint) {
     .inner {
-      //position: relative;
+      height: $header-height-mobile;
       justify-content: space-between;
       align-items: center;
+    }
+    &.scrolled {
+      .inner {
+        height: $header-height-mobile;
+      }
+      .logo {
+        h1 {
+          font-size: 1em;
+          flex-basis: 100%;
+        }
+        h2 {
+          display: none;
+        }
+      }
     }
 
     nav {

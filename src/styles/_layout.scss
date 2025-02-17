@@ -8,7 +8,7 @@
     width: 95%;
   }
 }
-article {
+.content {
   margin-top: calc($header-height + 3rem);
 }
 section {
@@ -18,6 +18,9 @@ section {
   padding: 1.5rem 1.5rem 1.5rem;
   margin-bottom: 1.5rem;
   min-height: 50vh;
+  section {
+    padding: 1.5rem 0;
+  }
 }
 
 .flex-container {
@@ -30,7 +33,7 @@ section {
   }
 }
 @media (max-width: $mobile-breakpoint) {
-  article {
+  .content {
     margin-top: calc($header-height-mobile + 3rem);
   }
 }
