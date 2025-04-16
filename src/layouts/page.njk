@@ -19,20 +19,21 @@ datePublished: "2024-01-01"
                     {{ content | safe }}
                 </article>
             </section>
-            <section id="case-studies">
-                <h1>Case Studies</h1>
-                {% for study in sitedata.case_studies %}
-                    <article class="case-study">
-                        {{ caseStudy(study) }}
-                    </article>
-                {% endfor %}
-            </section>
 
             <section id="services">
                 <h1>Services</h1>
                 {% for service in sitedata.services %}
                     <article class="service-item">
                         {{ serviceItem(service) }}
+                    </article>
+                {% endfor %}
+            </section>
+
+            <section id="case-studies">
+                <h1>Case Studies</h1>
+                {% for study in sitedata.case_studies %}
+                    <article class="case-study">
+                        {{ caseStudy(study) }}
                     </article>
                 {% endfor %}
             </section>
@@ -66,8 +67,14 @@ datePublished: "2024-01-01"
                     </section>
                 </article>
             </section>
+            <section id="philosophy">
+                <article>
+                    <h1>{{ sitedata.philosophy.header }}</h1>
+                    {{ sitedata.philosophy.content | safe }}
+                </article>
+            </section>
             <section id="contact">
-                <srticle>
+                <article>
                     <h1>Contact</h1>
                     <p>{{ sitedata.contact.intro }}</p>
                     <address>

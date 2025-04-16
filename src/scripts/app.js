@@ -51,6 +51,53 @@ const siteActions = [
           if (homeLink) homeLink.classList.add("active");
         }
       });
+      console.log("starting fetch");
+      fetch("http://localhost:8000/process-context", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          patient_data: {
+            name: "John Doe",
+            age: 45,
+            medical_history: {
+              conditions: ["Hypertension", "Type 2 Diabetes"],
+              medications: [
+                { name: "Lisinopril", dosage: "10mg", frequency: "daily" },
+                { name: "Metformin", dosage: "500mg", frequency: "twice daily" },
+              ],
+              allergies: ["Penicillin"],
+            },
+            recent_visits: [
+              {
+                date: "2025-01-15",
+                reason: "Routine checkup",
+                notes: "Blood pressure elevated at 145/90. A1C at 7.2%.",
+              },
+            ],
+          },
+          query: "What medications is this patient taking for hypertension?",
+          max_context_length: 500,
+        }),
+      })
+        .then((response) => {
+          // Log the raw response for debugging
+          console.log("Response status:", response.status);
+          response.text().then((text) => {
+            console.log("Raw response:", text);
+            try {
+              const data = JSON.parse(text);
+              console.log("Success:", data);
+            } catch (e) {
+              console.error("Error parsing JSON:", e);
+            }
+          });
+        })
+        .catch((error) => {
+          console.error("Network error:", error);
+        });
     },
   },
   {
@@ -102,9 +149,6 @@ const siteActions = [
       audioContainers.forEach((container) => {
         const player = new Plyr(container.querySelector("audio"), {
           controls: ["play", "progress", "current-time", "duration", "mute", "volume"],
-        });
-        player.on("ready", () => {
-          console.log("Player ready");
         });
         player.on("error", (error) => {
           console.error("Player error:", error);

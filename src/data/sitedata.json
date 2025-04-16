@@ -5,89 +5,11 @@
   "meta": {
     "title": "Alex Beuscher - Digital Marketing & Web Consulting",
     "author": "Alex Beuscher",
-    "description": "Alex Beuscher is a web developer and entrepreneur living in Amherst, MA. He has most recently worked as a web developer in California and is seeking opportunities in the cannabis space.",
+    "description": "Alex Beuscher is a web developer and entrepreneur living in Amherst, MA. He has most recently worked as a web developer in California and is seeking opportunities primarily in the non-profit sector.",
     "keywords": "front end developer, web development amherst",
     "site_url": "alexbeuscher.com",
     "site_thumb": "al_pic-lg.jpg",
     "permalink": "https://alexbeuscher.com/"
-  },
-  "multimedia": {
-    "intro": "I have been involved in film and audio production for about 15 years. My initial foray into the field was as a line producer on an independent film. I worked as a DJ and MC for 10 years following, hosting pub trivia as well as weddings and other events.",
-    "experience": "When I moved into radio, I worked as a content producer and video production comprised about 50% of my time. I had a small team whom I coordinated to film interviews, live events, concerts, and in studio sketches. Since then I have been employed on and off as a voiceover artist in multiple scenarios. I am specifically skilled at production, voiceover, and web integration, but I also can edit, film, and engineer audio at an amateur level.",
-    "audio": [
-      {
-        "src": "audio/audiosample_bernies.mp3",
-        "type": "audio/mpeg",
-        "title": "Bernie & Phil's Commercial",
-        "description": "Commercial spot for Bernie & Phil's furniture store"
-      },
-      {
-        "src": "audio/audiosample_clintonsavings.mp3",
-        "type": "audio/mpeg",
-        "title": "Clinton Savings Bank",
-        "description": "Commercial spot for Clinton Savings Bank"
-      },
-      {
-        "src": "audio/audiosample_ge.mp3",
-        "type": "audio/mpeg",
-        "title": "General Electric",
-        "description": "Commercial spot for General Electric"
-      },
-      {
-        "src": "audio/audiosample_intuit.mp3",
-        "type": "audio/mpeg",
-        "title": "Intuit",
-        "description": "Commercial spot for Intuit software"
-      },
-      {
-        "src": "audio/audiosample_preph.mp3",
-        "type": "audio/mpeg",
-        "title": "Pre-Ph Commercial",
-        "description": "Pre-Ph product commercial spot"
-      },
-      {
-        "src": "audio/audiosample_robitussin.mp3",
-        "type": "audio/mpeg",
-        "title": "Robitussin",
-        "description": "Commercial spot for Robitussin medicine"
-      },
-      {
-        "src": "audio/audiosample_starbucks.mp3",
-        "type": "audio/mpeg",
-        "title": "Starbucks",
-        "description": "Commercial spot for Starbucks Coffee"
-      },
-      {
-        "src": "audio/audiosample_suffolk.mp3",
-        "type": "audio/mpeg",
-        "title": "Suffolk University",
-        "description": "Commercial spot for Suffolk University"
-      },
-      {
-        "src": "audio/audiosample_tonightoncbs.mp3",
-        "type": "audio/mpeg",
-        "title": "CBS Programming",
-        "description": "Tonight on CBS programming promo"
-      },
-      {
-        "src": "audio/audiosample_wilburcomedy.mp3",
-        "type": "audio/mpeg",
-        "title": "Wilbur Comedy",
-        "description": "Wilbur Theatre comedy show promo"
-      }
-    ],
-    "video": [
-      {
-        "url": "https://www.youtube.com/watch?v=M1GukNhzugM",
-        "title": "HIE Demo Video",
-        "description": "Demonstration video for HIE of One, an open source medical records initiative. I scripted, recorded, and did the video piece as well."
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=rGOYeoeXtWI",
-        "title": "WAAF Highlight Reel",
-        "description": "A collection of clips from my time in radio."
-      }
-    ]
   },
   "header": {
     "name": "Alex Beuscher",
@@ -98,33 +20,57 @@
         "url": "/"
       },
       {
-        "text": "Case Studies",
-        "url": "#case-studies"
-      },
-      {
         "text": "Services",
         "url": "#services"
+      },
+      {
+        "text": "Case Studies",
+        "url": "#case-studies"
       },
       {
         "text": "Multimedia",
         "url": "#multimedia"
       },
       {
+        "text": "Philosophy",
+        "url": "#philosophy"
+      },
+      {
         "text": "Contact",
         "url": "#contact"
       }
-    ],
-    "contact": [
-      {
-        "text": "alexbeuscher@gmail.com",
-        "url": "mailto:alexbeuscher@gmail.com"
-      },
-      {
-        "text": "(617) 359-6971",
-        "url": "tel:6173596971"
-      }
     ]
   },
+  "services": [
+    {
+      "header": "Website Rescue & Optimization",
+      "content": "Websites can be very tricky to manage over time, and an org can often lose sight of basics. I have been a web developer for over 25 years. I can clean up the dark corners of your website and get you into a better content workflow."
+    },
+    {
+      "header": "Email & Newsletter System Cleanup",
+      "content": "For most non-profits, newsletters/eblasts are a critical point of communication and coordination. Often the tooling and templates for email can be hard to penetrate and this can often result in inconsistencies and performance issues with your newsletter. I can help inform both the content and the technical components of your email system and get you into a place of greater confidence with your outbound comms."
+    },
+    {
+      "header": "Digital Infrastructure Audit & Cleanup",
+      "content": "A lot of figuring out how to improve your organization lies in the tedious but necessary act of cleaning up organically developed processes and procedures. I will clean up your digital accounts and help you to develop a plan for future success with them."
+    },
+    {
+      "header": "Digital Asset Organization",
+      "content": "Volunteer organizations in particular can have trouble wrangling digital assets over time to get best use from them. Coordinating photo collection and storage from events, past design efforts, and marketing materials can all be very daunting. Also if they are handled well, they can be great ways to drive engagement with your members. Often all that is actually needed is having a plan to account for these items ahead of time, and I can help your org to start developing awareness of how and when to take these steps."
+    },
+    {
+      "header": "Training",
+      "content": "No set of improvements is worth anything unless they can be documented and implemented, and the most critical part of any implementation is training. Training employees and volunteers how to use your digital tools is a critical and component of systems change and improvements. I have had several clients who, after an assessment and discussion, have realized that all they actually need is training and that their systems are perfectly adequate."
+    },
+    {
+      "header": "Agency Relationship Management",
+      "content": "Good agencies can be a huge boost to your org at certain stages of growth. I have been working with third party agencies for several decades. I am very good at helping to facilitate communication and give honest assessments on agency work."
+    },
+    {
+      "header": "Resource Network Coordination",
+      "content": "While I focus on digital systems and processes, I maintain relationships with trusted specialists in accounting, design, development, and other technical areas. When your needs extend beyond my expertise, I can help identify and coordinate with the right professionals, ensuring you get quality work without the overhead of finding and vetting contractors yourself."
+    }
+  ],
   "case_studies": [
     {
       "title": "Marketing Analytics Optimization",
@@ -223,6 +169,88 @@
       "content": "<p>At 2K Games, I led the transition from agency-dependent web properties to a unified, in-house content management system. The challenge was maintaining high-quality content across multiple game franchises while supporting global localization needs.</p><p>By implementing a headless CMS architecture and establishing clear content workflows, we created a system that dramatically reduced publishing time while improving content quality. The system was so effective it became the standard for other departments and continues to serve as the foundation for 2K's web presence today.</p><p>We were able to leverage an open source product - an early API based CMS named Cockpit - and to hire the product's lead developer to add localization support with the help of my team. I was very pleased to have been able to both leverage and help pay for open source while in this role, and it is a goal for me to do this more often in future. As a regular contributor to open source, I think it is often the best, lowest cost choice for organizations over the long term, and when all things are equal I find open source to almost always be the best solution.</p>"
     }
   ],
+  "multimedia": {
+    "intro": "I have been involved in film and audio production for about 15 years. My initial foray into the field was as a line producer on an independent film. I worked as a DJ and MC for 10 years following, hosting pub trivia as well as weddings and other events.",
+    "experience": "When I moved into radio, I worked as a content producer and video production comprised about 50% of my time. I had a small team whom I coordinated to film interviews, live events, concerts, and in studio sketches. Since then I have been employed on and off as a voiceover artist in multiple scenarios. I am specifically skilled at production, voiceover, and web integration, but I also can edit, film, and engineer audio at an amateur level.",
+    "audio": [
+      {
+        "src": "audio/audiosample_bernies.mp3",
+        "type": "audio/mpeg",
+        "title": "Bernie & Phil's Commercial",
+        "description": "Commercial spot for Bernie & Phil's furniture store"
+      },
+      {
+        "src": "audio/audiosample_clintonsavings.mp3",
+        "type": "audio/mpeg",
+        "title": "Clinton Savings Bank",
+        "description": "Commercial spot for Clinton Savings Bank"
+      },
+      {
+        "src": "audio/audiosample_ge.mp3",
+        "type": "audio/mpeg",
+        "title": "General Electric",
+        "description": "Commercial spot for General Electric"
+      },
+      {
+        "src": "audio/audiosample_intuit.mp3",
+        "type": "audio/mpeg",
+        "title": "Intuit",
+        "description": "Commercial spot for Intuit software"
+      },
+      {
+        "src": "audio/audiosample_preph.mp3",
+        "type": "audio/mpeg",
+        "title": "Pre-Ph Commercial",
+        "description": "Pre-Ph product commercial spot"
+      },
+      {
+        "src": "audio/audiosample_robitussin.mp3",
+        "type": "audio/mpeg",
+        "title": "Robitussin",
+        "description": "Commercial spot for Robitussin medicine"
+      },
+      {
+        "src": "audio/audiosample_starbucks.mp3",
+        "type": "audio/mpeg",
+        "title": "Starbucks",
+        "description": "Commercial spot for Starbucks Coffee"
+      },
+      {
+        "src": "audio/audiosample_suffolk.mp3",
+        "type": "audio/mpeg",
+        "title": "Suffolk University",
+        "description": "Commercial spot for Suffolk University"
+      },
+      {
+        "src": "audio/audiosample_tonightoncbs.mp3",
+        "type": "audio/mpeg",
+        "title": "CBS Programming",
+        "description": "Tonight on CBS programming promo"
+      },
+      {
+        "src": "audio/audiosample_wilburcomedy.mp3",
+        "type": "audio/mpeg",
+        "title": "Wilbur Comedy",
+        "description": "Wilbur Theatre comedy show promo"
+      }
+    ],
+    "video": [
+      {
+        "url": "https://www.youtube.com/watch?v=M1GukNhzugM",
+        "title": "HIE Demo Video",
+        "description": "Demonstration video for HIE of One, an open source medical records initiative. I scripted, recorded, and did the video piece as well."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=rGOYeoeXtWI",
+        "title": "WAAF Highlight Reel",
+        "description": "A collection of clips from my time in radio."
+      }
+    ]
+  },
+  "philosophy": {
+    "header": "My Philosophy",
+    "content": "<p>My guiding philosophy in tech is to keep solutions as simple as possible and do more listening than talking. In any consulting interaction I need to learn your whole business problem before I can solve anything. And the best solution is always to improve current tools rather than replace them.</p><p>Too often as a dev or volunteer tech, I have seen flashy vendors fleece non-profit and for-profit organizations alike with panacea technology. The reality is there is no panacea and to say otherwise would be hugely dishonest; an organization needs to have a good framework and also a good follow through. Blogs don't write themselves. Calendars don't auto-populate. In other words, part of helping you solve your problems is making sure that we work together to create sustainable technology practices which grow stronger over time through repetition and self-evaluation.</p>"
+  },
   "contact": {
     "intro": "Please reach out with any questions. I am always happy to help."
   },
@@ -240,94 +268,5 @@
         "url": "https://www.linkedin.com/in/alex-beuscher-8314157/"
       }
     ]
-  },
-  "overview": {
-    "title": "overview",
-    "intro_header": "Overview",
-    "intro": "<p>I have more than twenty years of experience working in marketing. I have originated digital campaigns, worked with stakeholders on high profile web properties, and managed several small teams to success. I also have experience as a storyteller, voice over artist, and video producer. I enjoy working with other people to create new and entertaining things - be they ad campaigns, products, or experiences.</p><p>Throughout my career, I've found that the most successful marketing strategies are built on a foundation of technical excellence and sustainable systems. My advocacy for open source solutions and standards-based development stems from seeing firsthand how these approaches lead to more resilient, scalable marketing operations that truly serve business needs.</p>"
-  },
-  "services": [
-    {
-      "header": "Digital Marketing Strategy Development",
-      "content": "Crafting a marketing strategy that aligns with both your business goals and the needs of the people who will implement it. My focus is on creating sustainable, adaptable marketing strategies that consider your team's dynamics and the flexibility needed in an evolving market.",
-      "scope": "Initial consultations, a comprehensive strategy document, and a follow-up session to review and adjust.",
-      "totalhours": 40,
-      "hourlyrate": 150,
-      "estimatedcost": 6000
-    },
-    {
-      "header": "Vendor Management & Outsourcing Consultation",
-      "content": "Building strong relationships with vendors is essential for long-term success. I help you find and vet partners who align with your business values, ensuring open communication and a smooth handoff to those who will execute the work. The focus is on avoiding lock-in with proprietary systems, choosing decentralized, standards-based options where possible.",
-      "scope": "Vendor search, recommendations, and communication management until the project starts.",
-      "totalhours": 25,
-      "hourlyrate": 150,
-      "estimatedcost": 3750
-    },
-    {
-      "header": "Web Presence Assessment & Strategy",
-      "content": "Your web presence is more than just a digital storefront—it's how your business interacts with its audience. I conduct a thorough audit of your site and digital channels, focusing on usability, SEO, and scalability, then provide a clear roadmap for improvement. The goal is to build a resilient web presence that grows with your business.",
-      "scope": "Web audit, 1-hour presentation of findings, and a roadmap for improvements.",
-      "totalhours": 30,
-      "hourlyrate": 150,
-      "estimatedcost": 4500
-    },
-    {
-      "header": "Digital Transformation Consulting",
-      "content": "Helping businesses adopt modern, decentralized digital tools for long-term growth. Whether it's an eCommerce platform, CMS, or CRM, my approach is rooted in open standards to avoid vendor lock-in and ensure scalability. We'll work together to choose the right tools and make sure they integrate seamlessly into your existing operations.",
-      "scope": "Digital tools assessment, strategy document, implementation plan, and follow-up sessions.",
-      "totalhours": 50,
-      "hourlyrate": 150,
-      "estimatedcost": 7500
-    },
-    {
-      "header": "Marketing Campaign Direction",
-      "content": "Marketing campaigns should evolve with the market. My role is to create an adaptable, people-centered campaign strategy, ensuring alignment with your brand values and flexibility to pivot based on ongoing results. I'll oversee the execution by third-party vendors, making sure your team and the external partners work in harmony.",
-      "scope": "Initial campaign strategy document, regular check-ins, and final performance report.",
-      "totalhours": 35,
-      "hourlyrate": 200,
-      "estimatedcost": 7000
-    },
-    {
-      "header": "Web Development Oversight",
-      "content": "Managing the development of secure, standards-based web solutions, I focus on projects that prioritize open systems, scalability, and the long-term resilience of your business. I ensure that everything from frontend to backend is implemented using best practices and designed for future growth.",
-      "scope": "Project oversight, code reviews, and ensuring delivery aligns with your business goals.",
-      "totalhours": 45,
-      "hourlyrate": 180,
-      "estimatedcost": 8100
-    },
-    {
-      "header": "Technology Integration & Automation",
-      "content": "Automating business processes and integrating new technology should be a seamless experience. I help identify the right systems, focusing on decentralized, open platforms to ensure flexibility and avoid vendor lock-in. Together, we'll implement solutions that grow with your business and improve operational efficiency.",
-      "scope": "Tech assessment, integration plan, and oversight of implementation.",
-      "totalhours": 60,
-      "hourlyrate": 180,
-      "estimatedcost": 10800
-    }
-  ],
-  "packages": [
-    {
-      "header": "Foundations Package",
-      "content": "Best for early-stage businesses or those looking for foundational digital marketing strategies without oversaturation in the market. This package focuses on businesses that need to establish a clear, strategic digital presence in a market where options are limited.",
-      "scope": "Digital Marketing Strategy Development and Web Presence Assessment & Strategy",
-      "totalhours": 50,
-      "hourlyrate": 150,
-      "estimatedcost": 7500
-    },
-    {
-      "header": "Growth & Differentiation Package",
-      "content": "Best for mid-stage businesses or those in oversaturated markets looking to stand out and scale through smart digital strategies. For businesses struggling with differentiation in crowded markets, this package offers comprehensive digital and marketing strategies designed to help them carve out a unique space.",
-      "scope": "Marketing Campaign Direction, Vendor Management & Outsourcing Consultation, and Web Development Oversight",
-      "totalhours": 70,
-      "hourlyrate": 165,
-      "estimatedcost": 9450
-    },
-    {
-      "header": "Budget Essentials Package",
-      "content": "Best for businesses with limited budgets but looking to get the most out of their digital presence and marketing efforts. This is a more affordable option for businesses that may not be able to afford comprehensive packages but still need help with core aspects of their digital marketing and web presence.",
-      "scope": "Digital Marketing Strategy Development and Web Presence Assessment",
-      "totalhours": 30,
-      "hourlyrate": 150,
-      "estimatedcost": 4500
-    }
-  ]
+  }
 }
