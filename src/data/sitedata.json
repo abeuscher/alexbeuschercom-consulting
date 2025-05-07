@@ -48,7 +48,7 @@
     },
     {
       "header": "Email & Newsletter System Cleanup",
-      "content": "For most non-profits, newsletters/eblasts are a critical point of communication and coordination. Often the tooling and templates for email can be hard to penetrate and this can result in inconsistencies and performance issues with your newsletter. I can help inform both the content and the technical components of your email system and get you into a place of greater confidence with your outbound communications."
+      "content": "For most non-profits, newsletters/eblasts are a critical point of communication and coordination. Often the tooling and templates for email can be hard to work with. This can result in inconsistencies and performance issues with your newsletter. I can help inform both the content and the technical components of your email system and get you into a place of greater confidence with your outbound communications."
     },
     {
       "header": "Digital Infrastructure Audit & Cleanup",
@@ -56,7 +56,7 @@
     },
     {
       "header": "Digital Asset Organization",
-      "content": "Volunteer organizations in particular can have trouble wrangling digital assets over time to get best use from them. Coordinating photo collection and storage from events, archiving past design efforts, and managing marketing materials can all be very daunting. Also if these activities are handled properly, they can lead to cost savings, higher levels fo engagement, and better outcomes overall. Often all that is actually needed is having a plan to account for these files ahead of time, and I can help your org to start developing awareness of how and when to take these steps."
+      "content": "Volunteer organizations in particular can have trouble wrangling digital assets over time to get best use from them. Coordinating photo collection and storage from events, archiving past design efforts, and managing marketing materials can all be very daunting. Also if these activities are handled properly, they can lead to cost savings, higher levels of engagement, and better outcomes overall. Often all that is actually needed is having a plan to account for these files ahead of time, and I can help your org to start developing awareness of how and when to take these steps."
     },
     {
       "header": "Training",
@@ -118,7 +118,7 @@
           "value": "3x improvement"
         }
       ],
-      "content": "<p>At Contentstack, I was tasked with improving the output of a junior development team in Mumbai while overhauling the site development process. The stack we worked with was the company's core product - an enterprise headless CMS in combination with Gatsby.</p><p>I enlisted a number of different approaches to working with this team, including pair programming, general presentations on best practices, and regular one on ones.</p><p>A lot of what was needed here was context; when working with teams in multiple time zones, it is easy to lose the overall goals of a project. By regularly meeting with stakeholders and team members, I made sure that each individual understood their role and the role of the team as a whole. This allowed the team to move with greater agility and to feel more confident when making decisions on their own. The result was a significantly leaner codebase, and more activated productive employees.</p>"
+      "content": "<p>At Contentstack, I was tasked with improving the output of a junior development team in Mumbai while overhauling the site development process. The stack we worked with was the company's core product - an enterprise headless CMS in combination with Gatsby.</p><p>I used several different approaches to working with this team, including pair programming, general presentations on best practices, and regular one on ones.</p><p>A lot of what was needed here was context; when working with teams in multiple time zones, it is easy to lose the overall goals of a project. By regularly meeting with stakeholders and team members, I made sure that each individual understood their role and the role of the team as a whole. This allowed the team to move with greater agility and to feel more confident when making decisions on their own. The result was a significantly leaner codebase, and more activated productive employees.</p>"
     },
     {
       "title": "Healthcare AI Innovation & Open Source Advocacy",
