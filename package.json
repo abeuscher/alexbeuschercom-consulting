@@ -19,15 +19,15 @@
     "pug": "^3.0.3"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0",
-    "@babel/core": "^7.25.8",
-    "@babel/preset-env": "^7.25.8",
-    "@types/node": "^22.7.5",
+    "@11ty/eleventy": "^3.1.1",
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "@types/node": "^24.0.3",
     "autoprefixer": "^10.0.0",
     "babel-loader": "^9.2.1",
     "esbuild-plugin-alias": "^0.2.1",
-    "prettier": "^3.0.0",
-    "sass": "^1.79.5"
+    "prettier": "^3.5.3",
+    "sass": "^1.89.2"
   },
   "browserslist": [
     "defaults"

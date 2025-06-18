@@ -16,28 +16,20 @@
     "title": "Digital Marketing & Web Consulting",
     "nav": [
       {
-        "text": "About",
+        "text": "Therapists",
         "url": "/"
       },
       {
-        "text": "Services",
-        "url": "#services"
+        "text": "Non-Profits",
+        "url": "/nonprofits/"
       },
       {
-        "text": "Case Studies",
-        "url": "#case-studies"
+        "text": "Portfolio & Resume",
+        "url": "/portfolio/"
       },
       {
-        "text": "Multimedia",
-        "url": "#multimedia"
-      },
-      {
-        "text": "Philosophy",
-        "url": "#philosophy"
-      },
-      {
-        "text": "Contact",
-        "url": "#contact"
+        "text": "Voiceover",
+        "url": "/voiceover/"
       }
     ]
   },
