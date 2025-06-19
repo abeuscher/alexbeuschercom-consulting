@@ -9,8 +9,6 @@ nav: "home"
 tags: []
 ---
 
-# Alex Beuscher - Digital Marketing & Web Consulting
-
 <section class="hero-section">
 <div class="summary-content">
 
@@ -20,7 +18,7 @@ Therapy practices shouldn't fail because of scheduling chaos, marketing overwhel
 
 **25+ years of web development experience. HIPAA-compliant solutions. Complete training included.**
 
-<div class="flex-container">
+<div class="button-row">
 <a href="/portfolio/" class="cta-button">View Portfolio & Resume</a>
 <a href="/nonprofits/" class="cta-button">Non-Profit Solutions</a>
 </div>

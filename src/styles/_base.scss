@@ -8,13 +8,7 @@ body {
   font-family: $body-font;
   color: $off-black;
   font-size: 18px;
-  background: linear-gradient(
-      rgba(0, 0, 0, $gradient-overlay-opacity),
-      rgba(0, 0, 0, $gradient-overlay-opacity)
-    ),
-    linear-gradient(45deg, #ffb6c1, #87cefa, #98fb98, #dda0dd, #f0e68c),
-    linear-gradient(135deg, #e6e6fa, #fafad2, #add8e6, #ffc0cb, #ffdab9);
-  min-height: 100vh;
+  background: #f9f9f9;
 }
 
 h1,
@@ -24,29 +18,9 @@ h4,
 h5,
 h6 {
   font-family: $header-font;
-  color: $black;
   padding: 0;
   margin: 0 0 0.5rem;
   line-height: 1.4;
-}
-
-h1 {
-  color: $dark-blue;
-  font-size: 2.5rem;
-  margin: 2rem 0 2rem;
-  padding-bottom: 1rem;
-  border-bottom: 3px solid rgba($dark-blue, 0.2);
-  position: relative;
-
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: -3px;
-    left: 0;
-    width: 60px;
-    height: 3px;
-    background-color: $dark-blue;
-  }
 }
 
 a {
@@ -58,4 +32,22 @@ a {
 p {
   font-size: 1.2em;
   line-height: 1.6;
+}
+.button-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  gap: 1rem;
+}
+.cta-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  border: 1px solid hsla(0, 0%, 20%, 0.2);
+  color: black;
+  &:hover {
+    background-color: hsla(0, 0%, 20%, 0.1);
+    text-decoration: none;
+  }
 }

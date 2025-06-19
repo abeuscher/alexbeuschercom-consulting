@@ -5,7 +5,7 @@ image: "/images/logo.png"
 datePublished: "2024-01-01"
 layout: "page.njk"
 permalink: "/nonprofits/index.html"
-nav: "portfolio"
+nav: "nonprofits"
 tags: []
 ---
 

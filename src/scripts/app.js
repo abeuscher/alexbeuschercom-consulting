@@ -12,15 +12,6 @@ const siteSettings = {
 
 const siteActions = [
   {
-    element: "header",
-    action: (els) => {
-      const header = els[0];
-      window.addEventListener("scroll", () => {
-        header.classList.toggle("scrolled", window.scrollY > 200);
-      });
-    },
-  },
-  {
     element: ".hamburger",
     action: (hamburgers) => {
       hamburgers.forEach((hamburger) => {
@@ -28,23 +19,6 @@ const siteActions = [
           const nav = hamburger.closest("header").querySelector("nav");
           hamburger.classList.toggle("open");
           nav.classList.toggle("open");
-        });
-      });
-    },
-  },
-  {
-    element: "header nav a",
-    action: (navLinks) => {
-      navLinks.forEach((link) => {
-        link.addEventListener("click", () => {
-          const header = link.closest("header");
-          const hamburger = header.querySelector(".hamburger");
-          const nav = header.querySelector("nav");
-
-          if (hamburger && nav) {
-            hamburger.classList.remove("open");
-            nav.classList.remove("open");
-          }
         });
       });
     },

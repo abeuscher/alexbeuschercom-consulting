@@ -17,19 +17,23 @@
     "nav": [
       {
         "text": "Therapists",
-        "url": "/"
+        "url": "/",
+        "key": "home"
       },
       {
         "text": "Non-Profits",
-        "url": "/nonprofits/"
+        "url": "/nonprofits/",
+        "key": "nonprofits"
       },
       {
-        "text": "Portfolio & Resume",
-        "url": "/portfolio/"
+        "text": "Portfolio",
+        "url": "/portfolio/",
+        "key": "portfolio"
       },
       {
         "text": "Voiceover",
-        "url": "/voiceover/"
+        "url": "/voiceover/",
+        "key": "voiceover"
       }
     ]
   },
