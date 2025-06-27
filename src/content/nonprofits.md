@@ -26,33 +26,51 @@ Your mission comes first. Technology should support that mission, not complicate
 ## How I Help Nonprofits
 
 <div class="service-item">
+
 ### Digital Infrastructure Audit
+
 Get clarity on what you actually have and what you actually need. Many organizations have accumulated tools and systems organically over time, leading to inefficiencies, duplicate costs, and staff frustration. I'll help you map your current digital landscape and identify opportunities for improvement.
+
 </div>
 
 <div class="service-item">
+
 ### Website Rescue & Optimization
+
 WordPress sites can become unwieldy over time, especially when managed by volunteers or handed off between agencies. I specialize in cleaning up neglected websites, improving performance, and establishing sustainable workflows that your team can actually maintain.
+
 </div>
 
 <div class="service-item">
+
 ### System Integration & Consolidation
+
 Reduce manual work by connecting your existing tools or replacing multiple systems with unified solutions. Whether it's connecting your website to your email system, integrating donation processing, or streamlining volunteer coordination, the goal is always fewer clicks, less duplication, and more time for mission work.
+
 </div>
 
 <div class="service-item">
+
 ### Email & Newsletter Optimization
+
 For most nonprofits, email is your most direct connection to supporters. I help organizations improve their email systems - from template design and list management to automation workflows that nurture donor relationships without constant manual effort.
+
 </div>
 
 <div class="service-item">
+
 ### Training & Documentation
+
 The best system in the world is worthless if your team can't use it confidently. I provide comprehensive training and create documentation that makes sense to real people. Sometimes an assessment reveals that training is all you need - your systems are fine, you just need to use them better.
+
 </div>
 
 <div class="service-item">
+
 ### Agency Relationship Management
+
 Good agencies can be transformative at certain stages of growth. Having worked with agencies for decades, I can help you evaluate proposals, facilitate communication, and ensure you're getting quality work that aligns with your goals and budget.
+
 </div>
 
 </div>
@@ -83,6 +101,7 @@ I help nonprofits evaluate when open source makes sense for their situation and 
 
 </div>
 <div class="case-content">
+
 ### Technical Leadership & Process Improvement
 
 Led a distributed development team while implementing sustainable development practices. Created streamlined workflows that improved both code quality and team productivity. Established documentation standards and training protocols that enabled greater autonomy and faster project completion.
@@ -104,6 +123,7 @@ _Nonprofit relevance: Demonstrates experience managing remote teams and creating
 
 </div>
 <div class="case-content">
+
 ### Enterprise Content Strategy & Cost Reduction
 
 Consolidated multiple agency-managed systems into a unified, in-house solution. Reduced ongoing costs while improving content quality and publishing efficiency. The system was designed for long-term sustainability and became the standard across multiple departments.

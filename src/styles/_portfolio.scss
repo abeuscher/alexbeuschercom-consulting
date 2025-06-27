@@ -4,13 +4,9 @@
   align-items: flex-start;
   gap: 2rem;
   margin-bottom: 3rem;
-
   .headshot {
-    flex-shrink: 0;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background: #f0f0f0; // placeholder
+    img {
+    }
   }
 }
 
