@@ -9,11 +9,15 @@ nav: "voiceover"
 tags: []
 ---
 
+<section>
+
 # Multimedia Production
 
 I have been involved in film and audio production for about 15 years. My initial foray into the field was as a line producer on an independent film. I worked as a DJ and MC for 10 years following, hosting pub trivia as well as weddings and other events.
 
 When I moved into radio, I worked as a content producer and video production comprised about 50% of my time. I had a small team whom I coordinated to film interviews, live events, concerts, and in studio sketches. Since then I have been employed on and off as a voiceover artist in multiple scenarios. I am specifically skilled at production, voiceover, and web integration, but I also can edit, film, and engineer audio at an amateur level.
+
+</section>
 
 <section>
 <h2>Audio Samples</h2>

@@ -3,7 +3,6 @@
 header.main {
   background-color: $header-bg-color;
   color: $header-text-color;
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -20,7 +19,8 @@ header.main {
     font-size: 0.5em;
     flex-basis: 50%;
     text-decoration: none;
-    color: white;
+    color: $header-text-color;
+    text-shadow: 2px 2px rgba(0, 0, 0, 90%);
     h1,
     h2 {
       margin: 0;
@@ -39,7 +39,7 @@ header.main {
       text-decoration: none;
       color: $header-text-color;
       position: relative;
-
+      text-shadow: 2px 2px rgba(0, 0, 0, 90%);
       &::after {
         content: "";
         position: absolute;
@@ -57,7 +57,7 @@ header.main {
       }
       &:hover {
         text-decoration: none;
-        color: $link-hover-color;
+        color: $off-white;
       }
       &.active {
         &::after {

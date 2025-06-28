@@ -8,10 +8,10 @@ $gray: #666;
 $body-font: "Source Sans Pro", sans-serif;
 $header-font: "Lato", sans-serif;
 $nav-font: "Lato", sans-serif;
-$header-bg-color: rgba(0, 0, 0); // Translucent white
-$header-text-color: #f8f8f8; // Dark gray for strong contrast
+$header-bg-color: transparent; // Translucent white
+$header-text-color: #f5f5f5; // Dark gray for strong contrast
 $gradient-overlay-opacity: 0.5;
-$link-hover-color: #f3f384;
+$link-hover-color: #343434;
 $header-height: 3rem;
 $header-height-scrolled: 3rem;
 $header-height-mobile: 5rem;

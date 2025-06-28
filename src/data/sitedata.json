@@ -12,18 +12,13 @@
     "permalink": "https://alexbeuscher.com/"
   },
   "header": {
-    "name": "Alex Beuscher",
-    "title": "Digital Marketing & Web Consulting",
+    "name": "Al Beuscher",
+    "title": "Digital Marketing & Web Development",
     "nav": [
       {
-        "text": "Therapists",
+        "text": "Services",
         "url": "/",
         "key": "home"
-      },
-      {
-        "text": "Non-Profits",
-        "url": "/nonprofits/",
-        "key": "nonprofits"
       },
       {
         "text": "Portfolio",
@@ -37,36 +32,6 @@
       }
     ]
   },
-  "services": [
-    {
-      "header": "Website Rescue & Optimization",
-      "content": "Websites can be very tricky to manage over time, and an org can often lose sight of basics. I have been a web developer for over 25 years. I can clean up the dark corners of your website and get you into a better content workflow."
-    },
-    {
-      "header": "Email & Newsletter System Cleanup",
-      "content": "For most non-profits, newsletters/eblasts are a critical point of communication and coordination. Often the tooling and templates for email can be hard to work with. This can result in inconsistencies and performance issues with your newsletter. I can help inform both the content and the technical components of your email system and get you into a place of greater confidence with your outbound communications."
-    },
-    {
-      "header": "Digital Infrastructure Audit & Cleanup",
-      "content": "A lot of figuring out how to improve your organization lies in the tedious but necessary act of cleaning up organically developed processes and procedures. I will clean up your digital accounts and help you to develop a plan for future success with them."
-    },
-    {
-      "header": "Digital Asset Organization",
-      "content": "Volunteer organizations in particular can have trouble wrangling digital assets over time to get best use from them. Coordinating photo collection and storage from events, archiving past design efforts, and managing marketing materials can all be very daunting. Also if these activities are handled properly, they can lead to cost savings, higher levels of engagement, and better outcomes overall. Often all that is actually needed is having a plan to account for these files ahead of time, and I can help your org to start developing awareness of how and when to take these steps."
-    },
-    {
-      "header": "Training",
-      "content": "No set of improvements is worth anything unless they can be documented and implemented, and the most critical part of any implementation is training. Training employees and volunteers how to use your digital tools is a critical component of systems change. I have had several clients who, after an assessment and discussion, have realized that all they actually need is training and that their systems are perfectly adequate."
-    },
-    {
-      "header": "Agency Relationship Management",
-      "content": "Good agencies can be a huge boost to your org at certain stages of growth. I have been working with third party agencies for several decades. I am very good at helping to facilitate communication and give honest assessments on agency work."
-    },
-    {
-      "header": "Resource Network Coordination",
-      "content": "While I focus on digital systems and processes, I maintain relationships with trusted specialists in accounting, design, development, and other technical areas. When your needs extend beyond my expertise, I can help identify and coordinate with the right professionals, ensuring you get quality work without the overhead of finding and vetting contractors yourself."
-    }
-  ],
   "case_studies": [
     {
       "title": "Marketing Analytics Optimization",
