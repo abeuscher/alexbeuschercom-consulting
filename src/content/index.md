@@ -15,13 +15,13 @@ tags: []
 
 # Need Help Navigating the Stupid Internet?
 
-I help individual consultants, therapists, and non-profits learn how to spend less and get more out of their web presence.
+I help consultants, therapists, and non-profits learn how to spend less and get more out of their web presence.
 
-### Have you wasted thousands of dollars to get just an email address, a sub-par website, and weak marketing tools and integrations?
+### Have you wasted thousands of dollars to end up with only a mediocre website, weak marketing tools, and an email address?
 
-Lots of time can be wasted on big, monolithic services that try to own your whole image online. I'm here to help you get away from that.
+Lots of time and money can be spent on big, all-in-one services that try to do everything. I'm here to help you get away from that.
 
-I believe in open-source, ethical, effective marketing techniques.
+I practice open-source, ethical, effective marketing techniques.
 
 **25+ years of web development experience. Focused on helping individuals and non-profits. Complete training included.**
 
