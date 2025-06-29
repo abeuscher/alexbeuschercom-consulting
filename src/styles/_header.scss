@@ -3,14 +3,13 @@
 header.main {
   background-color: $header-bg-color;
   color: $header-text-color;
-  top: 0;
-  left: 0;
   width: 100%;
   z-index: $header-z-index;
 
   .inner {
     display: flex;
     height: $header-height;
+    align-items: center;
     padding: 0 1.5rem;
     transition: 0.1s all ease-in;
   }
@@ -69,38 +68,26 @@ header.main {
 
   @media (max-width: $mobile-breakpoint) {
     .inner {
-      height: $header-height-mobile;
+      height: $header-height;
       justify-content: space-between;
       align-items: center;
-    }
-    &.scrolled {
-      .inner {
-        height: $header-height-mobile;
-      }
-      .logo {
-        h1 {
-          font-size: 1em;
-          flex-basis: 100%;
-        }
-        h2 {
-          display: none;
-        }
-      }
     }
 
     nav {
       display: none;
       position: absolute;
-      top: 100%;
+      top: 0;
       left: 0;
       width: 100%;
       background-color: $header-bg-color;
       flex-direction: column;
       align-items: center;
       padding: 1rem;
-
+      background: #333;
+      z-index: 1;
       &.open {
         display: flex;
+        align-items: flex-start;
       }
 
       a {
@@ -121,7 +108,7 @@ header.main {
       width: 30px;
       height: 20px;
       position: relative;
-
+      z-index: 2;
       span {
         display: block;
         width: 100%;

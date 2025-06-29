@@ -1,0 +1,76 @@
+---
+layout: base.njk
+permalink: /
+title: "Alex Beuscher - Portfolio"
+description: "Alex Beuscher is a web developer and digital consultant in Amherst, MA." 
+image: "/images/logo.png"
+datePublished: "2025-07-01"
+---
+
+<main>
+    <div class="content-wrapper padding-bottom">
+        <div class="content">
+            <article>
+
+                <section>
+                    <a href="#" class="download-button">PDF Version</a>
+                    {{ content | safe }}
+
+                    <h2>Technical Skills</h2>
+
+                    <div class="skills-grid">
+                        {% for skill in sitedata.skills %}
+                            <div class="grid-item">
+                                <h3>{{ skill.category }}</h3>
+                                <p>{{ skill.items }}</p>
+                            </div>
+                        {% endfor %}
+                    </div>
+
+                    <div class="case-studies">
+                        <h2>Case Studies</h2>
+
+                        {% for study in sitedata.caseStudies %}
+                            <div class="case-study">
+                                <div>
+                                    <p>
+                                        <strong>Key Results:</strong>
+                                    </p>
+                                    <ul>
+                                        {% for result in study.keyResults %}
+                                            <li>{{ result }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <h3>{{ study.title }}</h3>
+                                    <p>{{ study.description }}</p>
+                                </div>
+                            </div>
+                        {% endfor %}
+
+                    </div>
+
+                    <div class="employment-history">
+                        <h2>Employment History</h2>
+
+                        {% for job in sitedata.employment %}
+                            <div class="job-grid">
+                                <div>
+                                    <h4>{{ job.years }}</h4>
+                                </div>
+                                <div>
+                                    <h4>{{ job.title }}, {{ job.company }} | {{ job.location }}</h4>
+                                    <p>{{ job.description }}</p>
+                                </div>
+                            </div>
+                        {% endfor %}
+
+                    </div>
+
+                </section>
+            </article>
+        </div>
+    </div>
+</main>

@@ -7,7 +7,7 @@
             <ul>
                 {% for item in sitedata.footer.nav %}
                     <li>
-                        <a href="{{ item.url }}" class="{{ item.class }}">
+                        <a href="{{ item.url }}" class="{{ item.class }}" title="{{ item.text }}">
                             <span class="sr-only">{{ item.text }}</span>
                         </a>
                     </li>

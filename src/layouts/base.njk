@@ -32,9 +32,9 @@
             }
         </script>
     </head>
-    <body>
+    <body class="{{ nav | safe }}">
         {% include "header.njk" %}
-        <div>{{ content | safe }}</div>
+        {{ content | safe }}
         {% include "footer.njk" %}
     </body>
 </html>

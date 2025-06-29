@@ -1,6 +1,7 @@
 ---
-title: "Alex Beuscher"
-description: "Alex Beuscher"
+title: "Alex Beuscher - Digital Consulting Services"
+description: "Alex Beuscher is a digital consultant who specializes in helping individual consultants, therapists, and non-profit organizations."
+
 image: "/images/logo.png"
 datePublished: "2024-01-01"
 layout: "page.njk"
@@ -22,7 +23,7 @@ Lots of time can be wasted on big, monolithic services that try to own your whol
 
 I believe in open-source, ethical, effective marketing techniques.
 
-**25+ years of web development experience. HIPAA-compliant solutions. Complete training included.**
+**25+ years of web development experience. Focused on helping individuals and non-profits. Complete training included.**
 
 </div>
 <div class="headshot"><img src="images/littleal.jpg"/></div>
@@ -30,23 +31,19 @@ I believe in open-source, ethical, effective marketing techniques.
 
 <section>
 
-## I Can Help With
+## I can help with...
 
-<div class="skills-grid">
-<div class="skill-category">
+<div class="al-grid">
+<div class="grid-item">
 
-<span class="icon code"></span>
-
-### Website Stuff
+### ...website stuff <span class="icon code"></span>
 
 From soup to nuts we can make sure your website is effective, maintanable, and built well with normal tools.
 
 </div>
-<div class="skill-category">
+<div class="grid-item">
 
-<p class="icon-wrapper"><span class="icon envelope"></span></p>
-
-### Email Stuff
+### ...email stuff <span class="icon envelope"></span>
 
 Tracking and communicating with clients is important. This can include:
 
@@ -56,20 +53,16 @@ Tracking and communicating with clients is important. This can include:
 
 </div>
 
-<div class="skill-category">
+<div class="grid-item">
 
-<span class="icon calendar"></span>
-
-### Scheduling Stuff
+### ...scheduling stuff <span class="icon calendar"></span>
 
 Scheduling doesn't have to be complicated. We'll set you up with normal tools and simple solutions.
 
 </div>
-<div class="skill-category">
+<div class="grid-item">
 
-<span class="icon settings"></span>
-
-### Other Stuff
+### ...other stuff <span class="icon settings"></span>
 
 - Set up Payment Processing
 - Manage your online presence
@@ -82,7 +75,7 @@ Scheduling doesn't have to be complicated. We'll set you up with normal tools an
 
 <section>
 
-# Contact Al
+## Contact
 
 Want to talk? Feel free to call, text, or email me with any questions.
 

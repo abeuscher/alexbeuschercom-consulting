@@ -32,104 +32,6 @@
       }
     ]
   },
-  "case_studies": [
-    {
-      "title": "Marketing Analytics Optimization",
-      "company": "Dynamic Signal",
-      "location": "San Bruno, CA",
-      "key_metrics": [
-        {
-          "label": "Load time reduction",
-          "value": "14s → 2.5s"
-        },
-        {
-          "label": "Conversion rate",
-          "value": "100% increase"
-        },
-        {
-          "label": "Time on page",
-          "value": "2x improvement"
-        },
-        {
-          "label": "Organic traffic",
-          "value": "45% growth"
-        }
-      ],
-      "content": "<p>At Dynamic Signal, I inherited a bloated WordPress installation that had accumulated technical debt through multiple agency handoffs. We had no source control, no analytics, and no strategy.</p><p>I rebuilt the theme using modern practices, eliminated unnecessary front-end plugins, and implemented version control. My team then worked with our stakeholders to identify key performance indicators that actually mattered to the business. By focusing our optimization efforts on these core metrics rather than trying to improve everything at once, we were able to demonstrate clear ROI.</p><p>The result was not just technical improvement but a shift in how the organization approached web analytics. The marketing team was able to make data-driven decisions without getting lost in excessive metrics, leading to more effective campaigns and better resource allocation.</p>"
-    },
-    {
-      "title": "Technical Leadership & Debt Reduction",
-      "company": "Contentstack",
-      "location": "San Diego, CA",
-      "key_metrics": [
-        {
-          "label": "Codebase reduction",
-          "value": "50%"
-        },
-        {
-          "label": "Development speed",
-          "value": "200% faster"
-        },
-        {
-          "label": "Team size",
-          "value": "6 junior developers"
-        },
-        {
-          "label": "Project completion rate",
-          "value": "3x improvement"
-        }
-      ],
-      "content": "<p>At Contentstack, I was tasked with improving the output of a junior development team in Mumbai while overhauling the site development process. The stack we worked with was the company's core product - an enterprise headless CMS in combination with Gatsby.</p><p>I used several different approaches to working with this team, including pair programming, general presentations on best practices, and regular one on ones.</p><p>A lot of what was needed here was context; when working with teams in multiple time zones, it is easy to lose the overall goals of a project. By regularly meeting with stakeholders and team members, I made sure that each individual understood their role and the role of the team as a whole. This allowed the team to move with greater agility and to feel more confident when making decisions on their own. The result was a significantly leaner codebase, and more activated productive employees.</p>"
-    },
-    {
-      "title": "Healthcare AI Innovation & Open Source Advocacy",
-      "company": "HIE of One",
-      "location": "Arlington, MA",
-      "key_metrics": [
-        {
-          "label": "Development timeframe",
-          "value": "6 months part-time"
-        },
-        {
-          "label": "Core deliverable",
-          "value": "Application Development"
-        },
-        {
-          "label": "Additional Deliverables",
-          "value": "Website redesign, Social media presence"
-        },
-        {
-          "label": "Tech stack",
-          "value": "Vue.js, AI Integration"
-        }
-      ],
-      "content": "<p>At HIE of One, I contributed to an open source healthcare initiative focused on patient data sovereignty and AI integration. </p><p>I developed a one page application called MAIA or Medical AI Assistant. MAIA ia a Vue.js application demonstrating how patient-controlled health records can safely leverage AI capabilities while maintaining privacy and regulatory compliance. The app serves as a proof of concept for healthcare providers considering open source alternatives to traditional EHR systems. Alongside this development work, I rebuilt <a href='https://hieofone.com/' target='_blank'>the organization's website</a> with new messaging that helped to articulate the technical and ethical foundations of the project.</p><p>While still in its early stages, the project has attracted interest from healthcare researchers in both the US and India.</p>"
-    },
-    {
-      "title": "Enterprise Content Strategy Transformation",
-      "company": "2K Games",
-      "location": "Novato, CA",
-      "key_metrics": [
-        {
-          "label": "Systems consolidated",
-          "value": "5 → 1"
-        },
-        {
-          "label": "Languages supported",
-          "value": "12"
-        },
-        {
-          "label": "Annual content updates",
-          "value": "3,000+"
-        },
-        {
-          "label": "Cost reduction",
-          "value": "60%"
-        }
-      ],
-      "content": "<p>At 2K Games, I led the transition from agency-dependent web properties to a unified, in-house content management system. The challenge was maintaining high-quality content across multiple game franchises while supporting global localization needs.</p><p>By implementing a headless CMS architecture and establishing clear content workflows, we created a system that dramatically reduced publishing time while improving content quality. The system was so effective it became the standard for other departments and continues to serve as the foundation for 2K's web presence today.</p><p>We were able to leverage an open source product - an early API based CMS named Cockpit - and to hire the product's lead developer to add localization support with the help of my team. I was very pleased to have been able to both leverage and help pay for open source while in this role, and it is a goal for me to do this more often in future. As a regular contributor to open source, I think it is often the best, lowest cost choice for organizations over the long term, and when all things are equal I find open source to almost always be the best solution.</p>"
-    }
-  ],
   "multimedia": {
     "intro": "I have been involved in film and audio production for about 15 years. My initial foray into the field was as a line producer on an independent film. I worked as a DJ and MC for 10 years following, hosting pub trivia as well as weddings and other events.",
     "experience": "When I moved into radio, I worked as a content producer and video production comprised about 50% of my time. I had a small team whom I coordinated to film interviews, live events, concerts, and in studio sketches. Since then I have been employed on and off as a voiceover artist in multiple scenarios. I am specifically skilled at production, voiceover, and web integration, but I also can edit, film, and engineer audio at an amateur level.",
@@ -208,13 +110,79 @@
       }
     ]
   },
-  "philosophy": {
-    "header": "My Philosophy",
-    "content": "<p>My guiding philosophy in tech is to keep solutions as simple as possible and do more listening than talking. In any consulting interaction I need to learn your whole business problem before I can solve anything. And the best solution is always to improve current tools rather than replace them.</p><p>Too often as a dev or volunteer tech, I have seen flashy vendors fleece non-profit and for-profit organizations alike with panacea technology. The reality is there is no panacea and to say otherwise would be hugely dishonest; an organization needs to have a good framework and also a good follow through. Blogs don't write themselves. Calendars don't auto-populate. In other words, part of helping you solve your problems is making sure that we work together to create sustainable technology practices which grow stronger over time through repetition and self-evaluation.</p>"
-  },
-  "contact": {
-    "intro": "Please reach out with any questions. I am always happy to help."
-  },
+  "skills": [
+    {
+      "category": "Languages & Frameworks",
+      "items": "JavaScript, PHP, HTML/CSS, React, Vue.js, Node.js, GraphQL, GROQ"
+    },
+    {
+      "category": "Platforms & Tools",
+      "items": "11ty, Gatsby, WordPress, Sanity.io, Contentstack, Git, AWS Services, Figma"
+    },
+    {
+      "category": "AI",
+      "items": "OpenAI, Anthropic, Gemini, Mistral APIs, Multi-LLM application architecture, Prompt optimization"
+    }
+  ],
+  "caseStudies": [
+    {
+      "title": "Medical AI Assistant (MAIA) - HIE of One",
+      "description": "Built a patient-controlled medical AI assistant demonstrating secure health data integration with multiple AI providers (OpenAI, Anthropic, Gemini, Mistral, Together). Implemented GNAP protocol for secure authorization between patient EHR systems and AI services. Application serves as proof-of-concept for healthcare providers considering open source alternatives to traditional EHR systems while maintaining HIPAA compliance and patient data sovereignty.",
+      "keyResults": [
+        "Vue.js application",
+        "5 AI provider integrations",
+        "Open source healthcare initiative",
+        "Hackathon demonstration app"
+      ]
+    },
+    {
+      "title": "Technical Leadership - Contentstack",
+      "description": "Managed junior development team across time zones while overhauling development processes. Implemented pair programming, established best practices, and provided context through regular stakeholder communication. Created leaner codebase and more autonomous, confident developers.",
+      "keyResults": ["50% codebase reduction", "200% faster development", "6-person remote team"]
+    },
+    {
+      "title": "Enterprise Content Strategy - 2K Games",
+      "description": "Led transition from agency-dependent web properties to unified in-house CMS. Implemented headless architecture supporting global localization needs across multiple game franchises. System became departmental standard and continues as foundation for company web presence.",
+      "keyResults": ["5→1 system consolidation", "12 languages supported", "60% cost reduction"]
+    }
+  ],
+  "employment": [
+    {
+      "years": "2020-2023",
+      "title": "Senior Web Developer",
+      "company": "Skydio",
+      "location": "San Mateo, CA",
+      "description": "Managed contractors and stakeholders for marketing site built on Eleventy/Sanity.io stack. Assisted with GDPR/CCPA compliance implementation."
+    },
+    {
+      "years": "2019-2021",
+      "title": "Senior Web Developer & Team Lead",
+      "company": "Contentstack",
+      "location": "San Diego, CA",
+      "description": "Led remote team in Mumbai developing marketing sites using company's headless CMS with Gatsby. Provided voice-over work and technical documentation."
+    },
+    {
+      "years": "2017-2020",
+      "title": "Senior Web Developer",
+      "company": "Dynamic Signal",
+      "location": "San Bruno, CA",
+      "description": "Remote position managing WordPress, ZenDesk, and Marketo implementations. Collaborated with security team on compliance initiatives."
+    },
+    {
+      "years": "2013-2017",
+      "title": "Senior Web Developer",
+      "company": "2K Games",
+      "location": "Novato, CA",
+      "description": "Full-stack development for game title sites and web properties. Focus on security, localization, and compliance with GDPR/CCPA requirements."
+    },
+    {
+      "years": "2008-2011",
+      "title": "Online Content Director",
+      "company": "WAAF & Mike FM",
+      "location": "Allston, MA",
+      "description": "Managed content production team creating video, web, and mobile content. Supported sales department with branded web promotions."
+    }
+  ],
   "footer": {
     "legal": "© Alex Beuscher 2025",
     "nav": [
