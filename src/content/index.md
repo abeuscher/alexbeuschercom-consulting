@@ -23,7 +23,13 @@ Lots of time and money can be spent on big, all-in-one services that try to do e
 
 I practice open-source, ethical, effective marketing techniques.
 
-**25+ years of web development experience. Focused on helping individuals and non-profits. Complete training included.**
+<div class="feature-list">
+
+- 25+ years of web development experience.
+- Focused on helping individuals and non-profits.
+- Complete training included.
+
+</div>
 
 </div>
 <div class="headshot"><img src="images/littleal.jpg"/></div>
@@ -38,7 +44,7 @@ I practice open-source, ethical, effective marketing techniques.
 
 ### ...website stuff <span class="icon code"></span>
 
-From soup to nuts we can make sure your website is effective, maintanable, and built well with normal tools.
+We will make sure your website is effective, maintanable, and built well with standard tools.
 
 </div>
 <div class="grid-item">
