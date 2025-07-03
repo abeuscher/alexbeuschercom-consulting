@@ -130,7 +130,7 @@
       "description": "Built a patient-controlled medical AI assistant demonstrating secure health data integration with multiple AI providers (OpenAI, Anthropic, Gemini, Mistral, Together). Implemented GNAP protocol for secure authorization between patient EHR systems and AI services. Application serves as proof-of-concept for healthcare providers considering open source alternatives to traditional EHR systems while maintaining HIPAA compliance and patient data sovereignty.",
       "keyResults": [
         "Vue.js application",
-        "5 AI provider integrations",
+        "Multiple AI integrations",
         "Open source healthcare initiative",
         "Hackathon demonstration app"
       ]
@@ -173,14 +173,14 @@
       "title": "Senior Web Developer",
       "company": "2K Games",
       "location": "Novato, CA",
-      "description": "Full-stack development for game title sites and web properties. Focus on security, localization, and compliance with GDPR/CCPA requirements."
+      "description": "Full-stack development for game title sites and web properties. Focus on security, localization, and compliance with GDPR/CCPA requirements. Game titles included Civilization, Borderlands, and XCOM."
     },
     {
       "years": "2008-2011",
       "title": "Online Content Director",
       "company": "WAAF & Mike FM",
       "location": "Allston, MA",
-      "description": "Managed content production team creating video, web, and mobile content. Supported sales department with branded web promotions."
+      "description": "Managed content production team creating video, web, and mobile content. Supported sales department with branded web promotions. Coached on-air talent into how to engage online."
     }
   ],
   "footer": {

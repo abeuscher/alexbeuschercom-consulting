@@ -13,19 +13,8 @@ datePublished: "2025-07-01"
             <article>
 
                 <section>
-                    <a href="#" class="download-button">PDF Version</a>
+                    <a href="/alexbeuscher-resume-20250703.pdf" class="download-button">PDF Version</a>
                     {{ content | safe }}
-
-                    <h2>Technical Skills</h2>
-
-                    <div class="skills-grid">
-                        {% for skill in sitedata.skills %}
-                            <div class="grid-item">
-                                <h3>{{ skill.category }}</h3>
-                                <p>{{ skill.items }}</p>
-                            </div>
-                        {% endfor %}
-                    </div>
 
                     <div class="case-studies">
                         <h2>Case Studies</h2>
@@ -52,6 +41,16 @@ datePublished: "2025-07-01"
 
                     </div>
 
+                    <h2>Technical Skills</h2>
+
+                    <div class="skills-grid">
+                        {% for skill in sitedata.skills %}
+                            <div class="grid-item">
+                                <h3>{{ skill.category }}</h3>
+                                <p>{{ skill.items }}</p>
+                            </div>
+                        {% endfor %}
+                    </div>
                     <div class="employment-history">
                         <h2>Employment History</h2>
 
