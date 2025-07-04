@@ -37,19 +37,19 @@ I practice open-source, ethical, effective marketing techniques.
 
 <section>
 
-## I can help with...
+## I can help with
 
 <div class="al-grid">
 <div class="grid-item">
 
-### ...website stuff <span class="icon code"></span>
+### <span class="icon code"></span>website stuff
 
 We will make sure your website is effective, maintanable, and built well with standard tools.
 
 </div>
 <div class="grid-item">
 
-### ...email stuff <span class="icon envelope"></span>
+### <span class="icon envelope"></span>email stuff
 
 Tracking and communicating with clients is important. This can include:
 
@@ -61,14 +61,14 @@ Tracking and communicating with clients is important. This can include:
 
 <div class="grid-item">
 
-### ...scheduling stuff <span class="icon calendar"></span>
+### <span class="icon calendar"></span>scheduling stuff
 
 Scheduling doesn't have to be complicated. We'll set you up with normal tools and simple solutions.
 
 </div>
 <div class="grid-item">
 
-### ...other stuff <span class="icon settings"></span>
+### <span class="icon settings"></span>other stuff
 
 - Set up Payment Processing
 - Manage your online presence
