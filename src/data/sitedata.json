@@ -112,14 +112,17 @@
   },
   "skills": [
     {
+      "icon": "code",
       "category": "Languages & Frameworks",
       "items": "JavaScript, PHP, HTML/CSS, React, Vue.js, Node.js, GraphQL, GROQ"
     },
     {
+      "icon": "wrench",
       "category": "Platforms & Tools",
       "items": "11ty, Gatsby, WordPress, Sanity.io, Contentstack, Git, AWS Services, Figma"
     },
     {
+      "icon": "chip",
       "category": "AI",
       "items": "OpenAI, Anthropic, Gemini, Mistral APIs, Multi-LLM application architecture, Prompt optimization"
     }

@@ -23,12 +23,29 @@
   flex-direction: column;
 }
 .case-study > div:first-child {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   order: 2;
 }
 .case-study > div:nth-child(2) {
   order: 1;
 }
+.icon-header {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  position: relative;
+  .icon {
+    background-size: 50%;
+    padding: 0.2rem;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+    left: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+  }
+}
+
 .job-grid {
   div:first-child {
     display: flex;
@@ -53,22 +70,6 @@
     .grid-item {
       padding: 0;
       border-radius: 4px;
-      h3 {
-        display: flex;
-        align-items: center;
-        font-size: 1.3rem;
-        position: relative;
-      }
-      .icon {
-        background-size: 50%;
-        padding: 0.2rem;
-        margin-right: 0.5rem;
-        border-radius: 50%;
-        left: 0;
-        width: 2.5rem;
-        height: 2.5rem;
-        display: inline-block;
-      }
       p {
         font-size: 1.2rem;
       }
@@ -111,7 +112,7 @@
 .key-results {
   border-radius: 8px;
   background: #dedede;
-  padding: 0.5rem;
+  padding: 1.5rem 0.5rem 0.5rem;
   h4 {
     color: #777;
   }

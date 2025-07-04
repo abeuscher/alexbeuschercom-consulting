@@ -42,14 +42,14 @@ I practice open-source, ethical, effective marketing techniques.
 <div class="al-grid">
 <div class="grid-item">
 
-### <span class="icon code"></span>website stuff
+<h3 class="icon-header"><span class="icon code"></span>website stuff</h3>
 
 We will make sure your website is effective, maintanable, and built well with standard tools.
 
 </div>
 <div class="grid-item">
 
-### <span class="icon envelope"></span>email stuff
+<h3 class="icon-header"><span class="icon envelope"></span>email stuff</h3>
 
 Tracking and communicating with clients is important. This can include:
 
@@ -61,14 +61,14 @@ Tracking and communicating with clients is important. This can include:
 
 <div class="grid-item">
 
-### <span class="icon calendar"></span>scheduling stuff
+<h3 class="icon-header"><span class="icon calendar"></span>scheduling stuff</h3>
 
 Scheduling doesn't have to be complicated. We'll set you up with normal tools and simple solutions.
 
 </div>
 <div class="grid-item">
 
-### <span class="icon settings"></span>other stuff
+<h3 class="icon-header"><span class="icon settings"></span>other stuff</h3>
 
 - Set up Payment Processing
 - Manage your online presence
