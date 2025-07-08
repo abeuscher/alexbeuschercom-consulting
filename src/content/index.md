@@ -92,10 +92,16 @@ Far too many projects end with the realization that they have not moved anything
 
 ## Contact
 
+<div class="larry-grid">
+<div><img src="images/fort-larry.jpg" /></div>
+<div>
+
 Want to talk? Feel free to call, text, or email me with any questions.
 
 <a href="tel:6173596971">(617) 359-6971</a>
 
 <a href="mailto:alexbeuscher@gmail.com">alexbeuscher@gmail.com</a>
+
+</div>
 
 </section>

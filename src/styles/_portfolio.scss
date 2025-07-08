@@ -1,8 +1,3 @@
-.hero-section {
-  display: flex;
-  align-items: flex-start;
-  gap: 2rem;
-}
 .download-button {
   text-decoration: none;
   display: inline-block;
@@ -29,22 +24,6 @@
 .case-study > div:nth-child(2) {
   order: 1;
 }
-.icon-header {
-  display: flex;
-  align-items: center;
-  font-size: 1.3rem;
-  position: relative;
-  .icon {
-    background-size: 50%;
-    padding: 0.2rem;
-    margin-right: 0.5rem;
-    border-radius: 50%;
-    left: 0;
-    width: 2.5rem;
-    height: 2.5rem;
-    display: inline-block;
-  }
-}
 
 .job-grid {
   div:first-child {
@@ -60,6 +39,17 @@
     position: absolute;
     top: 0;
     right: 1rem;
+  }
+  .larry-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1.5rem;
+    div {
+      img {
+        width: 100%;
+        object-fit: contain;
+      }
+    }
   }
   .al-grid {
     display: grid;
