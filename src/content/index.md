@@ -13,13 +13,13 @@ tags: []
 <section class="hero-section">
 <div class="summary-content">
 
-# Need Help Navigating the Stupid Internet?
+# Consultants, Therapists, and Non-Profits: <br> Need Help Navigating the Stupid Internet?
 
-I help consultants, therapists, and non-profits learn how to spend less and get more out of their web presence.
+Spend less and build an effective web presence.
 
-### Have you wasted thousands of dollars to end up with only a mediocre website, weak marketing tools, and an email address?
+### Have you wasted thousands of dollars only to end up with only a mediocre website, weak marketing tools, and an email address?
 
-Lots of time and money can be spent on big, all-in-one services that try to do everything. I'm here to help you get away from that.
+Lots of time and money can be spent on big, all-in-one services that try to do everything. I will help you get the services you need at an affordable price.
 
 I practice open-source, ethical, effective marketing techniques.
 
@@ -27,7 +27,7 @@ I practice open-source, ethical, effective marketing techniques.
 
 - 25+ years of web development experience.
 - Focused on helping individuals and non-profits.
-- Complete training included.
+- Complete training available and included with all services.
 
 </div>
 
@@ -79,6 +79,15 @@ Scheduling doesn't have to be complicated. We'll set you up with normal tools an
 
 </section>
 
+<section>
+
+## Initial Evaluation
+
+### "What We Should Have Done Was Nothing"
+
+Far too many projects end with the realization that they have not moved anything forward. I am a realist about what I can and can't do for your business. If we do an initial look at your current activities and I see no room for impsrovement - I'm going to tell you so. I get no benefit from working on projects that don't bring value to my clients.
+
+</section>
 <section>
 
 ## Contact
