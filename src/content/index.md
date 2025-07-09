@@ -85,7 +85,7 @@ Scheduling doesn't have to be complicated. We'll set you up with normal tools an
 
 ### "What We Should Have Done Was Nothing"
 
-Far too many projects end with the realization that they have not moved anything forward. I am a realist about what I can and can't do for your business. If we do an initial look at your current activities and I see no room for impsrovement - I'm going to tell you so. I get no benefit from working on projects that don't bring value to my clients.
+I am a realist about what I can and can't do for your business. If, after an initial look at your current activities I see no room for improvement, we won't proceed. I get no benefit from working on projects that don't bring value to my clients.
 
 </section>
 <section>
