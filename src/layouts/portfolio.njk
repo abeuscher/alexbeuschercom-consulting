@@ -11,23 +11,29 @@ datePublished: "2025-07-01"
     <div class="content-wrapper padding-bottom">
         <div class="content">
             <article>
+                <section class="hero-section">
 
-                <section>
-                    <a href="/alexbeuscher-resume-20250703.pdf" class="download-button">PDF Version</a>
-                    {{ content | safe }}
-                    <h2>Technical Skills</h2>
+                    <div>{{content | safe }}<br>
+                        <a href="/alexbeuscher-resume-20250703.pdf" class="download-button">PDF Resume</a>
 
-                    <div class="skills-grid">
-                        {% for skill in sitedata.skills %}
-                            <div class="grid-item">
-                                <h3 class="icon-header">
-                                    {% if skill.icon %}
-                                        <span class="icon {{ skill.icon }}"></span>
-                                    {% endif %}{{ skill.category }}</h3>
-                                <p>{{ skill.items }}</p>
-                            </div>
-                        {% endfor %}
+                        <h2>Technical Skills</h2>
+
+                        <div class="skills-grid">
+                            {% for skill in sitedata.skills %}
+                                <div class="grid-item">
+                                    <h3 class="icon-header">
+                                        {% if skill.icon %}
+                                            <span class="icon {{ skill.icon }}"></span>
+                                        {% endif %}{{ skill.category }}</h3>
+                                    <p>{{ skill.items }}</p>
+                                </div>
+                            {% endfor %}
+                        </div>
                     </div>
+                    <div class="headshot"><img src="/images/bigal.jpg"/></div>
+                </section>
+                <section>
+
                     <div class="case-studies">
                         <h2>Case Studies</h2>
 

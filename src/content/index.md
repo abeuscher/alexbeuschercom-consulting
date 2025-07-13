@@ -78,16 +78,6 @@ Scheduling doesn't have to be complicated. We'll set you up with normal tools an
 </div>
 
 </section>
-
-<section>
-
-## Initial Evaluation
-
-### "What We Should Have Done Was Nothing"
-
-I am a realist about what I can and can't do for your business. If, after an initial look at your current activities I see no room for improvement, we won't proceed. I get no benefit from working on projects that don't bring value to my clients.
-
-</section>
 <section>
 
 ## Contact

@@ -9,9 +9,15 @@ nav: "voiceover"
 tags: []
 ---
 
-<section>
+<section class="hero-section">
+<div>
 
 I have been involved in film and audio production for about 15 years. While I worked in radio as a content producer and web developer, I also recorded a number of commercials which aired during my time there. I have more recently recorded audio for a number of demo videos at companies I have worked for, and as a freelance voiceover artist.
+
+</div>
+<div class="headshot"><img src="/images/pointal.jpg"/></div>
+</section>
+<section>
 
 ## Samples
 
