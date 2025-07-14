@@ -21,6 +21,23 @@ const siteActions = [
           nav.classList.toggle("open");
         });
       });
+      // Check actual measurements
+      console.log("Body scrollWidth:", document.body.scrollWidth);
+      console.log("HTML scrollWidth:", document.documentElement.scrollWidth);
+      console.log("Window innerWidth:", window.innerWidth);
+      console.log("Overflow amount:", document.documentElement.scrollWidth - window.innerWidth);
+
+      // Find the widest element
+      let elements = document.querySelectorAll("*");
+      let widest = 0;
+      let widestEl = null;
+      elements.forEach((el) => {
+        if (el.scrollWidth > widest) {
+          widest = el.scrollWidth;
+          widestEl = el;
+        }
+      });
+      console.log("Widest element:", widestEl, "Width:", widest);
     },
   },
   {

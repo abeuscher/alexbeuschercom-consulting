@@ -1,5 +1,4 @@
 @use "variables" as *;
-
 .content-wrapper {
   width: 90%;
   max-width: 1200px;
@@ -35,7 +34,7 @@ img {
   display: flex;
   flex-direction: column;
   img {
-    display: none;
+    //display: none;
   }
 }
 .feature-list {

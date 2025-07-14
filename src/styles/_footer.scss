@@ -9,10 +9,9 @@
   .footer-content {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
 
     @media (max-width: 768px) {
       flex-direction: column;
@@ -32,11 +31,11 @@
 
   .footer-nav {
     ul {
-      display: flex;
+      display: inline-flex;
       gap: 1.5rem;
       list-style: none;
       padding: 0;
-      margin: 0;
+      margin: 2rem 0 0;
     }
 
     a {
