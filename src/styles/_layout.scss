@@ -34,7 +34,7 @@ img {
   display: flex;
   flex-direction: column;
   img {
-    //display: none;
+    width: 100%;
   }
 }
 .feature-list {
@@ -51,6 +51,7 @@ img {
   .hero-section {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    gap: 2rem;
     img {
       display: block;
       width: 100%;

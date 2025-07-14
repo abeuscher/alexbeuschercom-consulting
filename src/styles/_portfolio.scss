@@ -16,27 +16,26 @@
 .case-study {
   display: flex;
   flex-direction: column;
-}
-.case-study > div:first-child {
-  margin-bottom: 1rem;
-  order: 2;
-}
-.case-study > div:nth-child(2) {
-  order: 1;
+  margin-top: 2rem;
+  div:first-child {
+    margin-bottom: 1rem;
+    order: 1;
+  }
+  div:nth-child(2) {
+    order: 2;
+  }
 }
 
 .job-grid {
   div:first-child {
     display: flex;
     align-items: center;
-    justify-content: center;
-    background: #ccc;
     color: #727171;
+    border-bottom: 2px solid #727171;
+    margin: 2rem 0 1rem;
   }
 }
 @media screen and (min-width: 768px) {
-  .download-button {
-  }
   .larry-grid {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -88,11 +87,14 @@
   }
   .job-grid {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
     div:first-child {
       display: flex;
       align-items: center;
       justify-content: center;
+      border-right: 2px solid #727171;
+      border-bottom: none;
+      margin: 0;
     }
   }
 }

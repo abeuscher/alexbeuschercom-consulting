@@ -68,7 +68,7 @@ Scheduling doesn't have to be complicated. We'll set you up with normal tools an
 </div>
 <div class="grid-item">
 
-<h3 class="icon-header"><span class="icon settings"></span>other stuff</h3>
+<h3 class="icon-header"><span class="icon other"></span>other stuff</h3>
 
 - Set up Payment Processing
 - Manage your online presence

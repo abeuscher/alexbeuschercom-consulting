@@ -113,12 +113,12 @@
   "skills": [
     {
       "icon": "code",
-      "category": "Languages & Frameworks",
+      "category": "Code",
       "items": "JavaScript, PHP, HTML/CSS, React, Vue.js, Node.js, GraphQL, GROQ"
     },
     {
       "icon": "wrench",
-      "category": "Platforms & Tools",
+      "category": "Tools",
       "items": "11ty, Gatsby, WordPress, Sanity.io, Contentstack, Git, AWS Services, Figma"
     },
     {

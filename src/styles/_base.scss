@@ -37,8 +37,11 @@ h1 {
 }
 main h2 {
   font-size: 1.5rem;
-  color: #c3c3c3;
   margin-top: 3rem;
+}
+main h3 {
+  font-size: 1.3em;
+  font-weight: bold;
 }
 @media screen and (min-width: 768px) {
   h1 {
@@ -46,7 +49,7 @@ main h2 {
   }
 
   main h2 {
-    font-size: 4rem;
+    font-size: 1.8rem;
     margin-top: 0;
   }
 }
@@ -64,4 +67,12 @@ hr {
 p {
   font-size: 1.2em;
   line-height: 1.6;
+}
+section ul {
+  list-style: outside square;
+  li {
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
 }
