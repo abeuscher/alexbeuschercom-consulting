@@ -87,6 +87,7 @@ header.main {
       &.open {
         display: flex;
         align-items: flex-start;
+        min-height: 50vw;
       }
 
       a {
