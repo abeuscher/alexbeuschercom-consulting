@@ -32,7 +32,7 @@ I practice open-source, ethical, effective marketing techniques.
 </div>
 
 </div>
-<div class="headshot"><img src="images/littleal.jpg"/></div>
+<div class="headshot"><img src="images/littleal.jpg" alt="Alex Beuscher, Age 10" /></div>
 </section>
 
 <section>
@@ -83,7 +83,7 @@ Scheduling doesn't have to be complicated. We'll set you up with normal tools an
 ## Contact
 
 <div class="larry-grid">
-<div><img src="images/fort-larry.jpg" /></div>
+<div><img src="images/fort-larry.jpg" alt="Larry" /></div>
 <div>
 
 Want to talk? Feel free to call, text, or email me with any questions.
